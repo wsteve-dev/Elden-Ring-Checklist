@@ -3,22 +3,16 @@
 // Suporta categorias simples (ex: Conquistas) e categorias com subcategorias
 // (ex: Armas -> Punhais, Katanas...; Feitiços -> Feitiçarias, Encantamentos).
 
-// Nomes dos arquivos de imagem dos troféus, na MESMA ordem dos itens
-// da categoria "trophies" em qualquer idioma (a ordem é idêntica nos JSONs).
-const TROPHY_IMAGE_FILES = [
-  'roundtable_hold.png','margit__the_fell_omen.png','shardbearer_godrick.png','great_rune.png',
-  'red_wolf_of_radagon.png','rennala__queen_of_the_full_moon.png','leonine_misbegotten_trophy.png',
-  'royal_knight_loretta.png','shardbearer_radahn.png','mimic_tear.png','godfrey_the_first_lord.png',
-  'shardbearer_morgott.png','magma_wyrm_makar.png','god-slaying_armament.png','fire_giant_trophy.png',
-  'erdtree_aflame.png','commander_niall.png','shardbearer_rykard.png','astel__naturalborn_of_the_void.png',
-  'godskin_duo.png','godskin_noble.png','ancestor_spirit_trophy.png','maliketh_the_black_blade.png',
-  'shardbearer_mohg.png','hoarah_loux_the_warrior.png','valiant_gargoyle.png',
-  'loretta__knight_of_the_haligtree.png','elemer_of_the_briar.png',
-  'dragonkin_soldier_of_nokstella_trophy.png','regal_ancestor_spirit.png','shardbearer_malenia.png',
-  'mohg__the_omen.png','dragonlord_placidusax.png','lichdragon_fortissax.png','age_of_stars.png',
-  'elden_lord.png','legendary_armaments.png','legendary_talismans.png','legendary_ashen_remains.png',
-  'legendary_sorceries_and_incantations.png','lord_of_frenzied_flame.png','elden_ring.png',
+// Base do repositório externo de imagens (GitHub)
+const ASSETS_BASE = 'https://raw.githubusercontent.com/wsteve-dev/GameAssets/main/images/elden-ring';
+
+// Números dos arquivos de troféu (01.png..42.png) no repo, na MESMA ordem dos
+// itens da categoria "trophies" em qualquer idioma (a ordem é idêntica nos JSONs).
+const TROPHY_IMAGE_ORDER = [
+  40, 26, 5, 41, 27, 19, 35, 36, 6, 32, 30, 7, 29, 14, 22, 42, 39, 8, 34, 21,
+  28, 38, 11, 10, 12, 25, 33, 37, 23, 24, 9, 31, 13, 20, 3, 2, 15, 18, 16, 17, 4, 1
 ];
+const TROPHY_IMAGE_FILES = TROPHY_IMAGE_ORDER.map(n => String(n).padStart(2, '0') + '.png');
 
 const STATE_KEY = 'er-checklist-checked';
 const CUSTOM_KEY = 'er-checklist-custom';
@@ -96,7 +90,7 @@ function allItemsForLeaf(leafKey, leaf, catId) {
       name,
       custom: false,
       img: (catId === 'trophies' && TROPHY_IMAGE_FILES[i])
-        ? 'img/trophies/' + TROPHY_IMAGE_FILES[i]
+        ? ASSETS_BASE + '/achievements/' + TROPHY_IMAGE_FILES[i]
         : null,
     }));
   }
