@@ -36,6 +36,13 @@ function loadLocalState() {
   // Limpeza: remove qualquer item personalizado salvo em versões antigas do site
   // (a funcionalidade de adicionar itens foi removida).
   try { localStorage.removeItem('er-checklist-custom'); } catch (e) {}
+
+  // Garante que "Elden Ring" (troféu de Platina) reflita corretamente as outras 41.
+  let allOthersDone = true;
+  for (let i = 1; i <= 41; i++) {
+    if (!checked['trophies-' + i]) { allOthersDone = false; break; }
+  }
+  checked['trophies-0'] = allOthersDone;
 }
 
 function saveChecked() {
@@ -271,7 +278,20 @@ function escapeHtml(s) {
 }
 
 function toggleItem(id) {
+  // "Elden Ring" (troféu de Platina) é automático: marca sozinho quando
+  // as outras 41 conquistas estiverem completas. Não pode ser clicado direto.
+  if (id === 'trophies-0') return;
+
   checked[id] = !checked[id];
+
+  if (id.startsWith('trophies-')) {
+    let allOthersDone = true;
+    for (let i = 1; i <= 41; i++) {
+      if (!checked['trophies-' + i]) { allOthersDone = false; break; }
+    }
+    checked['trophies-0'] = allOthersDone;
+  }
+
   render();
   saveChecked();
 }
