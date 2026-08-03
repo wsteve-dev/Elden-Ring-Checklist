@@ -6,12 +6,10 @@
 // Base do repositório externo de imagens (GitHub)
 const ASSETS_BASE = 'https://raw.githubusercontent.com/wsteve-dev/GameAssets/main/images/elden-ring';
 
-// Números dos arquivos de troféu (01.png..42.png) no repo, na MESMA ordem dos
-// itens da categoria "trophies" em qualquer idioma (a ordem é idêntica nos JSONs).
-const TROPHY_IMAGE_ORDER = [
-  40, 26, 5, 41, 27, 19, 35, 36, 6, 32, 30, 7, 29, 14, 22, 42, 39, 8, 34, 21,
-  28, 38, 11, 10, 12, 25, 33, 37, 23, 24, 9, 31, 13, 20, 3, 2, 15, 18, 16, 17, 4, 1
-];
+// Números dos arquivos de troféu (01.png..42.png) no repo. Como os itens da
+// categoria "trophies" nos JSONs agora seguem a mesma ordem 1..42 do repo,
+// isso é simplesmente a sequência direta.
+const TROPHY_IMAGE_ORDER = Array.from({ length: 42 }, (_, i) => i + 1);
 const TROPHY_IMAGE_FILES = TROPHY_IMAGE_ORDER.map(n => String(n).padStart(2, '0') + '.png');
 
 const STATE_KEY = 'er-checklist-checked';
