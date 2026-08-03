@@ -226,13 +226,18 @@ function renderContent() {
     }).join('');
     listHtml = '<div class="aset-list">' + rows + '</div>';
   } else if (isTable) {
+    let othersDone = 0;
+    for (let i = 1; i <= 41; i++) { if (checked['trophies-' + i]) othersDone++; }
     const rows = items.map(it => {
       const isChecked = !!checked[it.id];
       const parts = it.name.split(' — ');
       const title = parts[0];
       const desc = parts.slice(1).join(' — ');
+      const checkHtml = (it.id === 'trophies-0')
+        ? progressDot(othersDone, 41)
+        : '<div class="seal small"></div>';
       return '<div class="trow ' + (isChecked ? 'checked' : '') + '" data-id="' + it.id + '">'
-        + '<div class="trow-check"><div class="seal small"></div></div>'
+        + '<div class="trow-check">' + checkHtml + '</div>'
         + '<div class="trow-icon">' + (it.img ? '<img src="' + it.img + '" alt="" />' : '<div class="seal"></div>') + '</div>'
         + '<div class="trow-text">'
           + '<span class="trow-title">' + escapeHtml(title) + '</span>'
