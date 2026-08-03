@@ -15,12 +15,10 @@ const TROPHY_IMAGE_ORDER = [
 const TROPHY_IMAGE_FILES = TROPHY_IMAGE_ORDER.map(n => String(n).padStart(2, '0') + '.png');
 
 const STATE_KEY = 'er-checklist-checked';
-const CUSTOM_KEY = 'er-checklist-custom';
 const EXPANDED_KEY = 'er-checklist-expanded';
 
 let LANG_DATA = null;
 let checked = {};
-let custom = {};
 let expanded = {};
 let activeCat = null;
 let activeSubcat = null;
@@ -37,20 +35,14 @@ function loadLocalState() {
     const s = localStorage.getItem(STATE_KEY);
     checked = s ? JSON.parse(s) : {};
   } catch (e) { checked = {}; }
-  try {
-    const c = localStorage.getItem(CUSTOM_KEY);
-    custom = c ? JSON.parse(c) : {};
-  } catch (e) { custom = {}; }
+  // Limpeza: remove qualquer item personalizado salvo em versões antigas do site
+  // (a funcionalidade de adicionar itens foi removida).
+  try { localStorage.removeItem('er-checklist-custom'); } catch (e) {}
 }
 
 function saveChecked() {
   try { localStorage.setItem(STATE_KEY, JSON.stringify(checked)); }
   catch (e) { console.error('Erro ao salvar progresso', e); }
-}
-
-function saveCustom() {
-  try { localStorage.setItem(CUSTOM_KEY, JSON.stringify(custom)); }
-  catch (e) { console.error('Erro ao salvar itens personalizados', e); }
 }
 
 // Retorna a lista de "folhas" de uma categoria: se ela tem subcategorias,
@@ -79,7 +71,6 @@ function allItemsForLeaf(leafKey, leaf, catId) {
           setName: setObj.name,
           slot: slot.id,
           pieceName,
-          custom: false,
           img: null,
         });
       });
@@ -88,16 +79,12 @@ function allItemsForLeaf(leafKey, leaf, catId) {
     built = (leaf.items || []).map((name, i) => ({
       id: leafKey + '-' + i,
       name,
-      custom: false,
       img: (catId === 'trophies' && TROPHY_IMAGE_FILES[i])
         ? ASSETS_BASE + '/achievements/' + TROPHY_IMAGE_FILES[i]
         : null,
     }));
   }
-  const extra = (custom[leafKey] || []).map(it => ({
-    id: it.id, name: it.name, custom: true, img: null,
-  }));
-  return built.concat(extra);
+  return built;
 }
 
 function totalCounts() {
@@ -232,16 +219,7 @@ function renderContent() {
         + '<div class="aset-body">' + pieceRows + '</div>'
       + '</div>';
     }).join('');
-    const customExtra = (custom[leafKey] || []);
-    const customHtml = customExtra.length ? '<div class="grid">' + customExtra.map(it => {
-      const isChecked = !!checked[it.id];
-      return '<div class="item ' + (isChecked ? 'checked' : '') + '" data-id="' + it.id + '">'
-        + '<div class="seal"></div>'
-        + '<div class="item-text"><span class="name">' + escapeHtml(it.name) + '</span></div>'
-        + '<button class="rm-btn" data-remove="' + it.id + '" title="' + escapeHtml(ui.removeTitle) + '">✕</button>'
-        + '</div>';
-    }).join('') + '</div>' : '';
-    listHtml = '<div class="aset-list">' + rows + '</div>' + customHtml;
+    listHtml = '<div class="aset-list">' + rows + '</div>';
   } else if (isTable) {
     const rows = items.map(it => {
       const isChecked = !!checked[it.id];
@@ -255,7 +233,6 @@ function renderContent() {
           + '<span class="trow-title">' + escapeHtml(title) + '</span>'
           + (desc ? '<span class="trow-desc">' + escapeHtml(desc) + '</span>' : '')
         + '</div>'
-        + (it.custom ? '<button class="rm-btn" data-remove="' + it.id + '" title="' + escapeHtml(ui.removeTitle) + '">✕</button>' : '')
         + '</div>';
     }).join('');
     listHtml = '<div class="trophy-table">' + rows + '</div>';
@@ -266,7 +243,6 @@ function renderContent() {
         + '<div class="seal"></div>'
         + (it.img ? '<img class="item-img" src="' + it.img + '" alt="" />' : '')
         + '<div class="item-text"><span class="name">' + escapeHtml(it.name) + '</span></div>'
-        + (it.custom ? '<button class="rm-btn" data-remove="' + it.id + '" title="' + escapeHtml(ui.removeTitle) + '">✕</button>' : '')
         + '</div>';
     }).join('') + '</div>';
   }
@@ -274,12 +250,10 @@ function renderContent() {
   content.innerHTML =
     '<div class="section-head"><h2>' + escapeHtml(cat.subcategories ? cat.name + ' — ' + getActiveLeaf().leafName : cat.name) + '</h2><span class="stat">' + done + ' / ' + items.length + ' ' + escapeHtml(ui.completedLabel) + '</span></div>'
     + '<p class="section-desc">' + escapeHtml(leafDesc || '') + '</p>'
-    + listHtml
-    + '<div class="add-row"><input type="text" id="addInput" placeholder="' + escapeHtml(ui.addPlaceholder) + '"/><button id="addBtn">' + escapeHtml(ui.addBtn) + '</button></div>';
+    + listHtml;
 
   content.querySelectorAll('.item, .trow, .apiece').forEach(el => {
-    el.addEventListener('click', (e) => {
-      if (e.target.closest('.rm-btn')) return;
+    el.addEventListener('click', () => {
       toggleItem(el.getAttribute('data-id'));
     });
   });
@@ -289,16 +263,6 @@ function renderContent() {
       expanded[key] = !expanded[key];
       renderContent();
     });
-  });
-  content.querySelectorAll('[data-remove]').forEach(el => {
-    el.addEventListener('click', (e) => {
-      e.stopPropagation();
-      removeCustomItem(el.getAttribute('data-remove'));
-    });
-  });
-  document.getElementById('addBtn').addEventListener('click', addCustomItem);
-  document.getElementById('addInput').addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') addCustomItem();
   });
 }
 
@@ -311,28 +275,6 @@ function escapeHtml(s) {
 function toggleItem(id) {
   checked[id] = !checked[id];
   render();
-  saveChecked();
-}
-
-function addCustomItem() {
-  const input = document.getElementById('addInput');
-  const val = input.value.trim();
-  if (!val) return;
-  const { leafKey } = getActiveLeaf();
-  const id = 'custom-' + leafKey + '-' + Date.now();
-  if (!custom[leafKey]) custom[leafKey] = [];
-  custom[leafKey].push({ id, name: val });
-  input.value = '';
-  render();
-  saveCustom();
-}
-
-function removeCustomItem(id) {
-  const { leafKey } = getActiveLeaf();
-  custom[leafKey] = (custom[leafKey] || []).filter(it => it.id !== id);
-  delete checked[id];
-  render();
-  saveCustom();
   saveChecked();
 }
 
