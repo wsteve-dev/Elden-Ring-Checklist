@@ -12,6 +12,95 @@ const ASSETS_BASE = 'https://raw.githubusercontent.com/wsteve-dev/GameAssets/mai
 const TROPHY_IMAGE_ORDER = Array.from({ length: 42 }, (_, i) => i + 1);
 const TROPHY_IMAGE_FILES = TROPHY_IMAGE_ORDER.map(n => String(n).padStart(2, '0') + '.png');
 
+// Guias de localização para os 4 troféus de coleção lendária (índice = posição
+// do item na categoria "trophies", já na ordem 01..42 usada nos JSONs).
+const TROPHY_GUIDES = {
+  14: { // Legendary Armaments
+    pt: [
+      { name: 'Ruins Greatsword', hint: 'derrote o Guerreiro Bastardo e o Cavaleiro do Crisol no Castelo Redmane' },
+      { name: 'Eclipse Shotel', hint: 'baú no Castelo Sol' },
+      { name: 'Grafted Blade Greatsword', hint: 'mate o Bastardo Leonino no Castelo Morne' },
+      { name: 'Sword of Night and Flame', hint: 'baú na Mansão Caria' },
+      { name: "Marais Executioner's Sword", hint: 'mate Elemer dos Espinhos no Castelo Sombrio' },
+      { name: 'Dark Moon Greatsword', hint: 'siga a missão de Ranni até o Altar do Luar' },
+      { name: "Devourer's Scepter", hint: 'mate o invasor Bernahl em Farum Azula' },
+      { name: 'Golden Order Greatsword', hint: 'mate o Cruzado Bastardo na Caverna dos Desamparados' },
+      { name: 'Bolt of Gransax', hint: 'saqueie na lança do Gigante em Leyndell, Capital Real (some após virar Capital de Cinzas)' },
+    ],
+    en: [
+      { name: 'Ruins Greatsword', hint: 'defeat the Misbegotten Warrior and Crucible Knight in Redmane Castle' },
+      { name: 'Eclipse Shotel', hint: 'chest in Castle Sol' },
+      { name: 'Grafted Blade Greatsword', hint: 'kill Leonine Misbegotten in Castle Morne' },
+      { name: 'Sword of Night and Flame', hint: 'chest in the Caria Manor' },
+      { name: "Marais Executioner's Sword", hint: 'kill Elemer of the Briar in The Shaded Castle' },
+      { name: 'Dark Moon Greatsword', hint: "follow Ranni's quest until the Moonlight Altar" },
+      { name: "Devourer's Scepter", hint: 'kill invader Bernahl in Farum Azula' },
+      { name: 'Golden Order Greatsword', hint: 'kill Misbegotten Crusader in the Cave of the Forlorn' },
+      { name: 'Bolt of Gransax', hint: "loot on the giant's spear in Leyndell, Royal Capital (unavailable after it becomes Ashen Capital)" },
+    ],
+  },
+  15: { // Legendary Ashen Remains
+    pt: [
+      { name: 'Lhutel the Headless', hint: 'derrote a Sombra do Cemitério nas Catacumbas de Tombsward, Península Chorosa' },
+      { name: 'Redmane Knight Ogha', hint: 'derrote o Espírito Arbóreo Pútrido nas Catacumbas dos Mortos-em-Guerra, após derrotar Radahn' },
+      { name: 'Ancient Dragon Knight Kristoff', hint: 'derrote o Herói Ancião de Zamor na Tumba do Herói Sagrado' },
+      { name: 'Black Knife Tiche', hint: 'derrote Tiche no Evergaol do Planalto do Luar, missão de Ranni' },
+      { name: 'Mimic Tear', hint: 'Terreno Sagrado da Noite, em Nokron (precisa de Chave de Espada de Pedra)' },
+      { name: 'Cleanrot Knight Finlay', hint: 'baú em Elphael, Cinto da Árvore Sacra' },
+    ],
+    en: [
+      { name: 'Lhutel the Headless', hint: 'defeat the Cemetery Shade in Tombsward Catacombs, Weeping Peninsula' },
+      { name: 'Redmane Knight Ogha', hint: 'defeat the Putrid Tree Spirit in War-Dead Catacombs, after defeating Radahn' },
+      { name: 'Ancient Dragon Knight Kristoff', hint: "defeat the Ancient Hero of Zamor in Sainted Hero's Grave" },
+      { name: 'Black Knife Tiche', hint: "defeat Tiche in the Moonlight Plateau Evergaol, Ranni's questline" },
+      { name: 'Mimic Tear', hint: "Night's Sacred Ground, in Nokron (requires a Stonesword Key)" },
+      { name: 'Cleanrot Knight Finlay', hint: 'chest in Elphael, Brace of the Haligtree' },
+    ],
+  },
+  16: { // Legendary Sorceries and Incantations
+    pt: [
+      { name: 'Comet Azur', hint: 'recompensa de Azur, o Feiticeiro Primordial, em Cliffbottom' },
+      { name: "Ranni's Dark Moon", hint: 'mate as 3 tartarugas ao redor de Chelona\'s Rise, missão de Ranni' },
+      { name: 'Founding Rain of Stars', hint: 'recompensa por completar a missão de Ranni' },
+      { name: 'Stars of Ruin', hint: 'recompensa de Lusat, o Feiticeiro Primordial, no Esconderijo de Sellia' },
+      { name: 'Elden Stars', hint: 'corpo em Deeproot Depths, após derrotar a Gárgula Valente em Nokron' },
+      { name: 'Flame of the Fell God', hint: 'derrote Adan, Ladrão do Fogo, no Evergaol do Malfeitor' },
+      { name: "Greyoll's Roar", hint: 'derrote o dragão Greyoll em Caelid, ou compre na Catedral da Comunhão dos Dragões' },
+    ],
+    en: [
+      { name: 'Comet Azur', hint: 'reward from Primeval Sorcerer Azur at Cliffbottom' },
+      { name: "Ranni's Dark Moon", hint: "kill the 3 turtles around Chelona's Rise, Ranni's questline" },
+      { name: 'Founding Rain of Stars', hint: "reward for completing Ranni's questline" },
+      { name: 'Stars of Ruin', hint: 'reward from Primeval Sorcerer Lusat at Sellia Hideaway' },
+      { name: 'Elden Stars', hint: 'corpse in Deeproot Depths, after defeating the Valiant Gargoyle in Nokron' },
+      { name: 'Flame of the Fell God', hint: "defeat Adan, Thief of Fire, at Malefactor's Evergaol" },
+      { name: "Greyoll's Roar", hint: 'defeat the dragon Greyoll in Caelid, or buy at the Cathedral of Dragon Communion' },
+    ],
+  },
+  17: { // Legendary Talismans
+    pt: [
+      { name: 'Radagon Icon', hint: 'baú na Academia de Raya Lucaria, perto do Debate Parlor' },
+      { name: 'Godfrey Icon', hint: 'recompensa por derrotar Godefroy, o Enxertado, no Evergaol da Linhagem Dourada' },
+      { name: "Radagon's Soreseal", hint: 'Forte Faroth, em Caelid' },
+      { name: 'Dragoncrest Greatshield Talisman', hint: 'próximo ao Canal de Drenagem, na Árvore Sacra de Miquella' },
+      { name: "Old Lord's Talisman", hint: 'baú em Farum Azula em Ruínas' },
+      { name: "Erdtree's Favor +2", hint: 'em Leyndell, Capital de Cinzas (pós-jogo)' },
+      { name: "Marika's Soreseal", hint: 'altar em Elphael, precisa de Chave de Espada de Pedra' },
+      { name: 'Moon of Nokstella', hint: 'baú em Nokstella, Cidade Eterna, missão de Ranni' },
+    ],
+    en: [
+      { name: 'Radagon Icon', hint: 'chest in the Academy of Raya Lucaria, near the Debate Parlor' },
+      { name: 'Godfrey Icon', hint: "reward for defeating Godefroy the Grafted in the Golden Lineage Evergaol" },
+      { name: "Radagon's Soreseal", hint: 'Fort Faroth, in Caelid' },
+      { name: 'Dragoncrest Greatshield Talisman', hint: "near the Drainage Channel, in Miquella's Haligtree" },
+      { name: "Old Lord's Talisman", hint: 'chest in Crumbling Farum Azula' },
+      { name: "Erdtree's Favor +2", hint: 'in Leyndell, Ashen Capital (post-game)' },
+      { name: "Marika's Soreseal", hint: 'altar in Elphael, requires a Stonesword Key' },
+      { name: 'Moon of Nokstella', hint: "chest in Nokstella, Eternal City, Ranni's questline" },
+    ],
+  },
+};
+
 const STATE_KEY = 'er-checklist-checked';
 const EXPANDED_KEY = 'er-checklist-expanded';
 
@@ -228,7 +317,8 @@ function renderContent() {
   } else if (isTable) {
     let othersDone = 0;
     for (let i = 1; i <= 41; i++) { if (checked['trophies-' + i]) othersDone++; }
-    const rows = items.map(it => {
+    const langCode = (LangModule.getCurrentCode() || 'pt-BR').startsWith('pt') ? 'pt' : 'en';
+    const rows = items.map((it, i) => {
       const isChecked = !!checked[it.id];
       const parts = it.name.split(' — ');
       const title = parts[0];
@@ -236,12 +326,27 @@ function renderContent() {
       const checkHtml = (it.id === 'trophies-0')
         ? progressDot(othersDone, 41)
         : '<div class="seal small"></div>';
+      const guide = TROPHY_GUIDES[i];
+      const expKey = 'trophies-guide-' + i;
+      const isOpen = !!expanded[expKey];
+      const guideToggle = guide
+        ? '<button class="guide-toggle" data-guide="' + expKey + '">'
+          + (isOpen ? (langCode === 'pt' ? 'Ocultar guia ▴' : 'Hide guide ▴') : (langCode === 'pt' ? 'Ver guia ▾' : 'Show guide ▾'))
+          + '</button>'
+        : '';
+      const guideBody = (guide && isOpen)
+        ? '<ul class="guide-list">' + guide[langCode].map(g =>
+            '<li><strong>' + escapeHtml(g.name) + ':</strong> ' + escapeHtml(g.hint) + '</li>'
+          ).join('') + '</ul>'
+        : '';
       return '<div class="trow ' + (isChecked ? 'checked' : '') + '" data-id="' + it.id + '">'
         + '<div class="trow-check">' + checkHtml + '</div>'
         + '<div class="trow-icon">' + (it.img ? '<img src="' + it.img + '" alt="" />' : '<div class="seal"></div>') + '</div>'
         + '<div class="trow-text">'
           + '<span class="trow-title">' + escapeHtml(title) + '</span>'
           + (desc ? '<span class="trow-desc">' + escapeHtml(desc) + '</span>' : '')
+          + guideToggle
+          + guideBody
         + '</div>'
         + '</div>';
     }).join('');
@@ -263,13 +368,22 @@ function renderContent() {
     + listHtml;
 
   content.querySelectorAll('.item, .trow, .apiece').forEach(el => {
-    el.addEventListener('click', () => {
+    el.addEventListener('click', (e) => {
+      if (e.target.closest('.guide-toggle')) return;
       toggleItem(el.getAttribute('data-id'));
     });
   });
   content.querySelectorAll('.aset-header').forEach(el => {
     el.addEventListener('click', () => {
       const key = el.getAttribute('data-exp');
+      expanded[key] = !expanded[key];
+      renderContent();
+    });
+  });
+  content.querySelectorAll('.guide-toggle').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const key = el.getAttribute('data-guide');
       expanded[key] = !expanded[key];
       renderContent();
     });
