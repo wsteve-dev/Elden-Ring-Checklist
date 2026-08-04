@@ -117,6 +117,44 @@ const PIECE_SLOTS = [
   { id: 'legs', pt: 'Grevas', en: 'Leg Armor' },
 ];
 
+// Itens de outras categorias que, juntos, formam cada troféu de coleção
+// lendária. Quando todos os itens vinculados a um troféu estiverem marcados,
+// o troféu correspondente é marcado automaticamente (e desmarcado se algum
+// deles for desmarcado depois).
+const TROPHY_LINKS = {
+  14: [ // Legendary Armaments
+    'weapons::colossal_swords-7', 'weapons::curved_swords-14', 'weapons::colossal_swords-6',
+    'weapons::straight_swords-18', 'weapons::greatswords-12', 'weapons::greatswords-19',
+    'weapons::great_hammers-15', 'weapons::greatswords-18', 'weapons::spears-18',
+  ],
+  15: [ // Legendary Ashen Remains
+    'spirit_ashes::base-54', 'spirit_ashes::base-53', 'spirit_ashes::base-52',
+    'spirit_ashes::base-56', 'spirit_ashes::base-57', 'spirit_ashes::base-55',
+  ],
+  16: [ // Legendary Sorceries and Incantations
+    'spells::sorceries-15', 'spells::sorceries-60', 'spells::sorceries-24', 'spells::sorceries-75',
+    'spells::incantations-43', 'spells::incantations-50', 'spells::incantations-68',
+  ],
+  17: [ // Legendary Talismans
+    'talismans::base-74', 'talismans::base-81', 'talismans::base-20', 'talismans::base-30',
+    'talismans::base-73', 'talismans::base-18', 'talismans::base-22', 'talismans::base-72',
+  ],
+};
+// Mapa reverso: id do item -> índice(s) de troféu que ele afeta.
+const ITEM_TO_TROPHY = {};
+Object.entries(TROPHY_LINKS).forEach(([trophyIdx, itemIds]) => {
+  itemIds.forEach(itemId => {
+    if (!ITEM_TO_TROPHY[itemId]) ITEM_TO_TROPHY[itemId] = [];
+    ITEM_TO_TROPHY[itemId].push(trophyIdx);
+  });
+});
+
+function syncLegendaryTrophies() {
+  Object.entries(TROPHY_LINKS).forEach(([trophyIdx, itemIds]) => {
+    checked['trophies-' + trophyIdx] = itemIds.every(id => !!checked[id]);
+  });
+}
+
 function loadLocalState() {
   try {
     const s = localStorage.getItem(STATE_KEY);
@@ -125,6 +163,8 @@ function loadLocalState() {
   // Limpeza: remove qualquer item personalizado salvo em versões antigas do site
   // (a funcionalidade de adicionar itens foi removida).
   try { localStorage.removeItem('er-checklist-custom'); } catch (e) {}
+
+  syncLegendaryTrophies();
 
   // Garante que "Elden Ring" (troféu de Platina) reflita corretamente as outras 41.
   let allOthersDone = true;
@@ -323,9 +363,15 @@ function renderContent() {
       const parts = it.name.split(' — ');
       const title = parts[0];
       const desc = parts.slice(1).join(' — ');
-      const checkHtml = (it.id === 'trophies-0')
-        ? progressDot(othersDone, 41)
-        : '<div class="seal small"></div>';
+      let checkHtml;
+      if (it.id === 'trophies-0') {
+        checkHtml = progressDot(othersDone, 41);
+      } else if (TROPHY_LINKS[i]) {
+        const linkedDone = TROPHY_LINKS[i].filter(lid => checked[lid]).length;
+        checkHtml = progressDot(linkedDone, TROPHY_LINKS[i].length);
+      } else {
+        checkHtml = '<div class="seal small"></div>';
+      }
       const guide = TROPHY_GUIDES[i];
       const expKey = 'trophies-guide-' + i;
       const isOpen = !!expanded[expKey];
@@ -334,10 +380,15 @@ function renderContent() {
           + (isOpen ? (langCode === 'pt' ? 'Ocultar guia ▴' : 'Hide guide ▴') : (langCode === 'pt' ? 'Ver guia ▾' : 'Show guide ▾'))
           + '</button>'
         : '';
+      const linkedIds = TROPHY_LINKS[i];
       const guideBody = (guide && isOpen)
-        ? '<ul class="guide-list">' + guide[langCode].map(g =>
-            '<li><strong>' + escapeHtml(g.name) + ':</strong> ' + escapeHtml(g.hint) + '</li>'
-          ).join('') + '</ul>'
+        ? '<ul class="guide-list">' + guide[langCode].map((g, gi) => {
+            const isDone = linkedIds && checked[linkedIds[gi]];
+            return '<li class="' + (isDone ? 'done' : '') + '">'
+              + (isDone ? '✓ ' : '')
+              + '<strong>' + escapeHtml(g.name) + ':</strong> ' + escapeHtml(g.hint)
+              + '</li>';
+          }).join('') + '</ul>'
         : '';
       return '<div class="trow ' + (isChecked ? 'checked' : '') + '" data-id="' + it.id + '">'
         + '<div class="trow-check">' + checkHtml + '</div>'
@@ -397,9 +448,10 @@ function escapeHtml(s) {
 }
 
 function toggleItem(id) {
-  // "Elden Ring" (troféu de Platina) é automático: marca sozinho quando
-  // as outras 41 conquistas estiverem completas. Não pode ser clicado direto.
-  if (id === 'trophies-0') return;
+  // "Elden Ring" (Platina) e os 4 troféus de coleção lendária são automáticos:
+  // marcam sozinhos conforme o progresso em outras abas. Não podem ser clicados direto.
+  if (id === 'trophies-0' || id === 'trophies-14' || id === 'trophies-15'
+    || id === 'trophies-16' || id === 'trophies-17') return;
 
   checked[id] = !checked[id];
 
@@ -409,6 +461,10 @@ function toggleItem(id) {
       if (!checked['trophies-' + i]) { allOthersDone = false; break; }
     }
     checked['trophies-0'] = allOthersDone;
+  }
+
+  if (ITEM_TO_TROPHY[id]) {
+    syncLegendaryTrophies();
   }
 
   render();

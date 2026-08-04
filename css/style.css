@@ -367,6 +367,8 @@ body{
   padding:3px 0;
 }
 .guide-list li strong{color:var(--gold-bright);font-weight:600;}
+.guide-list li.done{color:var(--gold-bright);}
+.guide-list li.done strong{text-decoration:line-through;}
 .trow-check{flex-shrink:0;width:22px;}
 .trow.checked{background:linear-gradient(90deg, rgba(201,162,39,0.1), transparent);}
 .trow.checked .trow-title{color:var(--gold-bright);}
