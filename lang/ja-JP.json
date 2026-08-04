@@ -227,114 +227,114 @@
           "id": "curved_greatswords",
           "name": "大曲剣",
           "items": [
-            "Dismounter",
-            "Omen Cleaver",
-            "Monk's Flameblade",
-            "Beastman's Cleaver",
-            "Bloodhound's Fang",
-            "Onyx Lord's Greatsword",
-            "Zamor Curved Sword",
-            "Magma Wyrm's Scalesword",
-            "Morgott's Cursed Sword",
-            "Horned Warrior's Greatsword",
-            "Freyja's Greatsword"
+            "斬馬刀",
+            "忌み子の大刀",
+            "僧兵の炎姿刀",
+            "獣人の大曲刀",
+            "猟犬の長牙",
+            "黒王の大剣",
+            "ザミェルの湾刀",
+            "土竜の鱗剣",
+            "モーゴットの呪剣",
+            "角の戦士の大曲剣",
+            "フレイヤの大剣"
           ]
         },
         {
           "id": "katanas",
           "name": "刀",
           "items": [
-            "Uchigatana",
-            "Nagakiba",
-            "Serpentbone Blade",
-            "Meteoric Ore Blade",
-            "Moonveil",
-            "Rivers of Blood",
-            "Dragonscale Blade",
-            "Hand of Malenia",
-            "Star-Lined Sword",
-            "Sword of Night"
+            "打刀",
+            "長牙",
+            "蛇骨の刀",
+            "隕鉄の刀",
+            "名刀月隠",
+            "屍山血河",
+            "竜鱗刀",
+            "マレニアの義手刀",
+            "連星剣",
+            "夜の刃"
           ]
         },
         {
           "id": "twinblades",
           "name": "両刃剣",
           "items": [
-            "Twinblade",
-            "Twinned Knight Swords",
-            "Godskin Peeler",
-            "Gargoyle's Twinblade",
-            "Gargoyle's Black Blades",
-            "Eleonora's Poleblade"
+            "ツインブレード",
+            "ツインナイトソード",
+            "神肌剝ぎ",
+            "ガーゴイルの両刃剣",
+            "ガーゴイルの黒両刃",
+            "エレオノーラの双薙刀"
           ]
         },
         {
           "id": "thrusting_shields",
           "name": "刺突盾",
           "items": [
-            "Dueling Shield",
-            "Carian Thrusting Shield"
+            "デュエリングシールド",
+            "カーリアの刺突盾"
           ]
         },
         {
           "id": "hand_to_hand",
           "name": "格闘",
           "items": [
-            "Dryleaf Arts",
-            "Dane's Footwork"
+            "落葉格闘",
+            "ダン流蹴術"
           ]
         },
         {
           "id": "throwing_blades",
           "name": "投擲剣",
           "items": [
-            "Smithscript Dagger"
+            "流紋の短剣"
           ]
         },
         {
           "id": "backhand_blades",
           "name": "逆手剣",
           "items": [
-            "Backhand Blade",
-            "Smithscript Cirque",
-            "Curseblade's Cirque"
+            "逆手剣",
+            "流紋の円刃",
+            "呪剣士の円刃"
           ]
         },
         {
           "id": "perfume_bottles",
-          "name": "香油瓶",
+          "name": "調香瓶",
           "items": [
-            "Firespark Perfume Bottle",
-            "Chilling Perfume Bottle",
-            "Frenzyflame Perfume Bottle",
-            "Lightning Perfume Bottle",
-            "Deadly Poison Perfume Bottle"
+            "火花の調香瓶",
+            "冷気の調香瓶",
+            "狂い火の調香瓶",
+            "雷の調香瓶",
+            "猛毒の調香瓶"
           ]
         },
         {
           "id": "beast_claws",
-          "name": "獣の爪",
+          "name": "獣爪",
           "items": [
-            "Red Bear's Claw",
-            "Beast Claw"
+            "赤熊の爪",
+            "獣の爪"
           ]
         },
         {
           "id": "light_greatswords",
           "name": "軽大剣",
           "items": [
-            "Milady",
-            "Leda's Sword",
-            "Rellana's Twin Blades"
+            "レディソード",
+            "レダの剣",
+            "レラーナの双剣"
           ]
         },
         {
           "id": "great_katanas",
           "name": "大刀",
           "items": [
-            "Great Katana",
-            "Dragon-Hunter's Great Katana",
-            "Rakshasa's Great Katana"
+            "大刀",
+            "竜狩りの大刀",
+            "羅刹の大刀"
           ]
         },
         {
