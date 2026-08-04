@@ -69,7 +69,7 @@
       "subcategories": [
         {
           "id": "daggers",
-          "name": "Daggers",
+          "name": "短剣",
           "items": [
             "Dagger",
             "Parrying Dagger",
@@ -93,7 +93,7 @@
         },
         {
           "id": "straight_swords",
-          "name": "Straight Swords",
+          "name": "直剣",
           "items": [
             "Short Sword",
             "Longsword",
@@ -122,7 +122,7 @@
         },
         {
           "id": "greatswords",
-          "name": "Greatswords",
+          "name": "大剣",
           "items": [
             "Bastard Sword",
             "Claymore",
@@ -152,7 +152,7 @@
         },
         {
           "id": "colossal_swords",
-          "name": "Colossal Swords",
+          "name": "特大剣",
           "items": [
             "Zweihander",
             "Greatsword",
@@ -174,7 +174,7 @@
         },
         {
           "id": "thrusting_swords",
-          "name": "Thrusting Swords",
+          "name": "刺剣",
           "items": [
             "Rapier",
             "Estoc",
@@ -188,7 +188,7 @@
         },
         {
           "id": "heavy_thrusting_swords",
-          "name": "Heavy Thrusting Swords",
+          "name": "重刺剣",
           "items": [
             "Great Epee",
             "Godskin Stitcher",
@@ -200,7 +200,7 @@
         },
         {
           "id": "curved_swords",
-          "name": "Curved Swords",
+          "name": "曲剣",
           "items": [
             "Scimitar",
             "Falchion",
@@ -225,7 +225,7 @@
         },
         {
           "id": "curved_greatswords",
-          "name": "Curved Greatswords",
+          "name": "大曲剣",
           "items": [
             "Dismounter",
             "Omen Cleaver",
@@ -242,7 +242,7 @@
         },
         {
           "id": "katanas",
-          "name": "Katanas",
+          "name": "刀",
           "items": [
             "Uchigatana",
             "Nagakiba",
@@ -258,7 +258,7 @@
         },
         {
           "id": "twinblades",
-          "name": "Twinblades",
+          "name": "両刃剣",
           "items": [
             "Twinblade",
             "Twinned Knight Swords",
@@ -270,7 +270,7 @@
         },
         {
           "id": "thrusting_shields",
-          "name": "Thrusting Shields",
+          "name": "刺突盾",
           "items": [
             "Dueling Shield",
             "Carian Thrusting Shield"
@@ -278,7 +278,7 @@
         },
         {
           "id": "hand_to_hand",
-          "name": "Hand-to-Hand Arts",
+          "name": "格闘",
           "items": [
             "Dryleaf Arts",
             "Dane's Footwork"
@@ -286,14 +286,14 @@
         },
         {
           "id": "throwing_blades",
-          "name": "Throwing Blades",
+          "name": "投擲剣",
           "items": [
             "Smithscript Dagger"
           ]
         },
         {
           "id": "backhand_blades",
-          "name": "Backhand Blades",
+          "name": "逆手剣",
           "items": [
             "Backhand Blade",
             "Smithscript Cirque",
@@ -302,7 +302,7 @@
         },
         {
           "id": "perfume_bottles",
-          "name": "Perfume Bottles",
+          "name": "香油瓶",
           "items": [
             "Firespark Perfume Bottle",
             "Chilling Perfume Bottle",
@@ -313,7 +313,7 @@
         },
         {
           "id": "beast_claws",
-          "name": "Beast Claws",
+          "name": "獣の爪",
           "items": [
             "Red Bear's Claw",
             "Beast Claw"
@@ -321,7 +321,7 @@
         },
         {
           "id": "light_greatswords",
-          "name": "Light Greatswords",
+          "name": "軽大剣",
           "items": [
             "Milady",
             "Leda's Sword",
@@ -330,7 +330,7 @@
         },
         {
           "id": "great_katanas",
-          "name": "Great Katanas",
+          "name": "大刀",
           "items": [
             "Great Katana",
             "Dragon-Hunter's Great Katana",
@@ -339,7 +339,7 @@
         },
         {
           "id": "axes",
-          "name": "Axes",
+          "name": "斧",
           "items": [
             "Hand Axe",
             "Forked Hatchet",
@@ -362,7 +362,7 @@
         },
         {
           "id": "greataxes",
-          "name": "Greataxes",
+          "name": "大斧",
           "items": [
             "Greataxe",
             "Great Omenkiller Cleaver",
@@ -379,7 +379,7 @@
         },
         {
           "id": "hammers",
-          "name": "Hammers",
+          "name": "槌",
           "items": [
             "Flowerstone Gavel",
             "Club",
@@ -401,7 +401,7 @@
         },
         {
           "id": "flails",
-          "name": "Flails",
+          "name": "フレイル",
           "items": [
             "Flail",
             "Nightrider Flail",
@@ -413,7 +413,7 @@
         },
         {
           "id": "great_hammers",
-          "name": "Great Hammers",
+          "name": "大槌",
           "items": [
             "Large Club",
             "Curved Great Club",
@@ -435,7 +435,7 @@
         },
         {
           "id": "colossal_weapons",
-          "name": "Colossal Weapons",
+          "name": "特大武器",
           "items": [
             "Anvil Hammer",
             "Bloodfiend's Arm",
@@ -455,7 +455,7 @@
         },
         {
           "id": "spears",
-          "name": "Spears",
+          "name": "槍",
           "items": [
             "Short Spear",
             "Iron Spear",
@@ -480,7 +480,7 @@
         },
         {
           "id": "great_spears",
-          "name": "Great Spears",
+          "name": "大槍",
           "items": [
             "Lance",
             "Messmer Soldier's Spear",
@@ -496,7 +496,7 @@
         },
         {
           "id": "halberds",
-          "name": "Halberds",
+          "name": "斧槍",
           "items": [
             "Halberd",
             "Banished Knight's Halberd",
@@ -520,7 +520,7 @@
         },
         {
           "id": "reapers",
-          "name": "Reapers",
+          "name": "鎌",
           "items": [
             "Scythe",
             "Grave Scythe",
@@ -531,7 +531,7 @@
         },
         {
           "id": "whips",
-          "name": "Whips",
+          "name": "鞭",
           "items": [
             "Whip",
             "Thorned Whip",
@@ -544,7 +544,7 @@
         },
         {
           "id": "fists",
-          "name": "Fists",
+          "name": "拳",
           "items": [
             "Caestus",
             "Spiked Caestus",
@@ -563,7 +563,7 @@
         },
         {
           "id": "claws",
-          "name": "Claws",
+          "name": "爪",
           "items": [
             "Hookclaws",
             "Bloodhound Claws",
@@ -574,7 +574,7 @@
         },
         {
           "id": "light_bows",
-          "name": "Light Bows",
+          "name": "小弓",
           "items": [
             "Shortbow",
             "Composite Bow",
@@ -585,7 +585,7 @@
         },
         {
           "id": "bows",
-          "name": "Bows",
+          "name": "長弓",
           "items": [
             "Longbow",
             "Albinauric Bow",
@@ -597,7 +597,7 @@
         },
         {
           "id": "greatbows",
-          "name": "Greatbows",
+          "name": "大弓",
           "items": [
             "Greatbow",
             "Golem Greatbow",
@@ -607,7 +607,7 @@
         },
         {
           "id": "crossbows",
-          "name": "Crossbows",
+          "name": "クロスボウ",
           "items": [
             "Light Crossbow",
             "Crossbow",
@@ -620,7 +620,7 @@
         },
         {
           "id": "ballistas",
-          "name": "Ballistas",
+          "name": "バリスタ",
           "items": [
             "Hand Ballista",
             "Ballista",
@@ -629,7 +629,7 @@
         },
         {
           "id": "glintstone_staffs",
-          "name": "Glintstone Staffs",
+          "name": "杖",
           "items": [
             "Glintstone Staff",
             "Meteorite Staff",
@@ -653,7 +653,7 @@
         },
         {
           "id": "sacred_seals",
-          "name": "Sacred Seals",
+          "name": "聖印",
           "items": [
             "Finger Seal",
             "Godslayer's Seal",
@@ -668,7 +668,7 @@
         },
         {
           "id": "torches",
-          "name": "Torches",
+          "name": "松明",
           "items": [
             "Torch",
             "Steel-Wire Torch",
@@ -680,7 +680,7 @@
         },
         {
           "id": "small_shields",
-          "name": "Small Shields",
+          "name": "小盾",
           "items": [
             "Smithscript Shield",
             "Shield of Night",
@@ -705,7 +705,7 @@
         },
         {
           "id": "medium_shields",
-          "name": "Medium Shields",
+          "name": "中盾",
           "items": [
             "Golden Lion Shield",
             "Serpent Crest Shield",
@@ -742,7 +742,7 @@
         },
         {
           "id": "greatshields",
-          "name": "Greatshields",
+          "name": "大盾",
           "items": [
             "Verdigris Greatshield",
             "Black Steel Greatshield",
