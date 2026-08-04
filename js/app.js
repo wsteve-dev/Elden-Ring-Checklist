@@ -448,10 +448,23 @@ function escapeHtml(s) {
 }
 
 function toggleItem(id) {
-  // "Elden Ring" (Platina) e os 4 troféus de coleção lendária são automáticos:
-  // marcam sozinhos conforme o progresso em outras abas. Não podem ser clicados direto.
-  if (id === 'trophies-0' || id === 'trophies-14' || id === 'trophies-15'
-    || id === 'trophies-16' || id === 'trophies-17') return;
+  // "Elden Ring" (Platina) é automático: marca sozinho quando as outras 41
+  // conquistas estiverem completas. Não pode ser clicado direto.
+  if (id === 'trophies-0') return;
+
+  // Os 4 troféus de coleção lendária podem ser clicados diretamente: isso
+  // marca/desmarca em cascata todos os itens relacionados nas outras abas.
+  const trophyMatch = id.match(/^trophies-(14|15|16|17)$/);
+  if (trophyMatch) {
+    const trophyIdx = trophyMatch[1];
+    checked[id] = !checked[id];
+    (TROPHY_LINKS[trophyIdx] || []).forEach(linkedId => {
+      checked[linkedId] = checked[id];
+    });
+    render();
+    saveChecked();
+    return;
+  }
 
   checked[id] = !checked[id];
 
@@ -465,6 +478,12 @@ function toggleItem(id) {
 
   if (ITEM_TO_TROPHY[id]) {
     syncLegendaryTrophies();
+    // Recalcula a Platina também, caso essa marcação tenha completado tudo.
+    let allOthersDone2 = true;
+    for (let i = 1; i <= 41; i++) {
+      if (!checked['trophies-' + i]) { allOthersDone2 = false; break; }
+    }
+    checked['trophies-0'] = allOthersDone2;
   }
 
   render();
