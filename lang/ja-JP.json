@@ -782,7 +782,7 @@
       "subcategories": [
         {
           "id": "base",
-          "name": "Base Game",
+          "name": "本編",
           "items": [
             {
               "name": "Alberich's Set",
@@ -1677,7 +1677,7 @@
         },
         {
           "id": "dlc",
-          "name": "Shadow of the Erdtree (DLC)",
+          "name": "黄金樹の影（DLC）",
           "items": [
             {
               "name": "Ansbach's Set",
@@ -1900,7 +1900,7 @@
       "subcategories": [
         {
           "id": "sorceries",
-          "name": "Sorceries",
+          "name": "魔術",
           "items": [
             "Adula's Moonblade",
             "Ambush Shard",
@@ -1990,7 +1990,7 @@
         },
         {
           "id": "incantations",
-          "name": "Incantations",
+          "name": "祈祷",
           "items": [
             "Agheel's Flame",
             "Ancient Dragons' Lightning Spear",
@@ -2132,7 +2132,7 @@
       "subcategories": [
         {
           "id": "base",
-          "name": "Base Game",
+          "name": "本編",
           "items": [
             "Crimson Amber Medallion",
             "Crimson Amber Medallion +1",
@@ -2254,7 +2254,7 @@
         },
         {
           "id": "dlc",
-          "name": "Shadow of the Erdtree (DLC)",
+          "name": "黄金樹の影（DLC）",
           "items": [
             "Aged One's Exultation",
             "Ailment Talisman",
@@ -2306,7 +2306,7 @@
       "subcategories": [
         {
           "id": "base",
-          "name": "Base Game",
+          "name": "本編",
           "items": [
             "Wandering Noble Ashes",
             "Noble Sorcerer Ashes",
@@ -2376,7 +2376,7 @@
         },
         {
           "id": "dlc",
-          "name": "Shadow of the Erdtree (DLC)",
+          "name": "黄金樹の影（DLC）",
           "items": [
             "Man-Fly Ashes",
             "Spider Scorpion Ashes",
@@ -2409,7 +2409,7 @@
       "subcategories": [
         {
           "id": "base",
-          "name": "Base Game",
+          "name": "本編",
           "items": [
             "Stamp (Upward Cut)",
             "Stamp (Sweep)",
@@ -2505,7 +2505,7 @@
         },
         {
           "id": "dlc",
-          "name": "Shadow of the Erdtree (DLC)",
+          "name": "黄金樹の影（DLC）",
           "items": [
             "Savage Lion's Claw",
             "Spinning Gravity Thrust",
