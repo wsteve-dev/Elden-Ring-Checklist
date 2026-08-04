@@ -4,6 +4,7 @@
 
 const AVAILABLE_LANGS = [
   { code: 'pt-BR', label: 'PT-BR' },
+  { code: 'ja-JP', label: '日本語' },
   { code: 'en-US', label: 'EN-US' },
 ];
 
@@ -18,6 +19,7 @@ const LangModule = (() => {
     if (saved && AVAILABLE_LANGS.some(l => l.code === saved)) return saved;
     const nav = (navigator.language || 'pt-BR').toLowerCase();
     if (nav.startsWith('pt')) return 'pt-BR';
+    if (nav.startsWith('ja')) return 'ja-JP';
     return 'en-US';
   }
 
