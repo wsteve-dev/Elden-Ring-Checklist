@@ -587,35 +587,35 @@
           "id": "bows",
           "name": "長弓",
           "items": [
-            "Longbow",
-            "Albinauric Bow",
-            "Black Bow",
-            "Pulley Bow",
-            "Horn Bow",
-            "Serpent Bow"
+            "ロングボウ",
+            "しろがねの弓",
+            "黒弓",
+            "滑車の弓",
+            "角の弓",
+            "蛇弓"
           ]
         },
         {
           "id": "greatbows",
           "name": "大弓",
           "items": [
-            "Greatbow",
-            "Golem Greatbow",
-            "Erdtree Greatbow",
-            "Lion Greatbow"
+            "大弓",
+            "ゴーレムの大弓",
+            "黄金樹の大弓",
+            "獅子の大弓"
           ]
         },
         {
           "id": "crossbows",
           "name": "クロスボウ",
           "items": [
-            "Light Crossbow",
-            "Crossbow",
-            "Heavy Crossbow",
-            "Full Moon Crossbow",
-            "Arbalest",
-            "Pulley Crossbow",
-            "Crepus' Black-Key Crossbow"
+            "ライトクロスボウ",
+            "兵士のクロスボウ",
+            "ヘビークロスボウ",
+            "月輪の弩",
+            "アーバレスト",
+            "滑車の弩",
+            "クレプスの黒鍵"
           ]
         },
         {
