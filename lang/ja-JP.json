@@ -622,9 +622,9 @@
           "id": "ballistas",
           "name": "バリスタ",
           "items": [
-            "Hand Ballista",
-            "Ballista",
-            "Rabbath's Cannon"
+            "手持ちバリスタ",
+            "壺大砲",
+            "ラバスの大砲"
           ]
         },
         {
@@ -655,27 +655,27 @@
           "id": "sacred_seals",
           "name": "聖印",
           "items": [
-            "Finger Seal",
-            "Godslayer's Seal",
-            "Erdtree Seal",
-            "Gravel Stone Seal",
-            "Golden Order Seal",
-            "Clawmark Seal",
-            "Dragon Communion Seal",
-            "Giant's Seal",
-            "Frenzied Flame Seal"
+            "指の聖印",
+            "神狩りの聖印",
+            "黄金樹の聖印",
+            "さざれ石の聖印",
+            "黄金律の聖印",
+            "爪痕の聖印",
+            "竜餐の印",
+            "巨人の聖印",
+            "狂い火の聖印"
           ]
         },
         {
           "id": "torches",
           "name": "松明",
           "items": [
-            "Torch",
-            "Steel-Wire Torch",
-            "St. Trina's Torch",
-            "Erdtree Torch",
-            "Beast-Repellent Torch",
-            "Ghostflame Torch"
+            "松明",
+            "銅線トーチ",
+            "トリーナの灯火",
+            "歩哨の松明",
+            "獣除けの松明",
+            "霊火のトーチ"
           ]
         },
         {
