@@ -546,41 +546,41 @@
           "id": "fists",
           "name": "拳",
           "items": [
-            "Caestus",
-            "Spiked Caestus",
-            "Katar",
-            "Pata",
-            "Iron Ball",
-            "Star Fist",
-            "Clinging Bone",
-            "Veteran's Prosthesis",
-            "Cipher Pata",
-            "Poisoned Hand",
-            "Madding Hand",
-            "Golem Fist",
-            "Grafted Dragon"
+            "セスタス",
+            "スパイクセスタス",
+            "カタール",
+            "パタ",
+            "鉄球拳",
+            "棘球拳",
+            "縋り付く手骨",
+            "宿将の義足",
+            "秘文字のパタ",
+            "毒手",
+            "狂手",
+            "ゴーレムの拳",
+            "接がれた飛竜"
           ]
         },
         {
           "id": "claws",
           "name": "爪",
           "items": [
-            "Hookclaws",
-            "Bloodhound Claws",
-            "Venomous Fang",
-            "Raptor Talons",
-            "Claws of Night"
+            "鉤爪",
+            "猟犬の爪",
+            "毒蛇の牙",
+            "猛禽の鉤爪",
+            "夜の爪"
           ]
         },
         {
           "id": "light_bows",
           "name": "小弓",
           "items": [
-            "Shortbow",
-            "Composite Bow",
-            "Red Branch Shotbow",
-            "Misbegotten Shortbow",
-            "Harp Bow"
+            "ショートボウ",
+            "コンポジットボウ",
+            "赤木のショートボウ",
+            "混種の小弓",
+            "ハープボウ"
           ]
         },
         {
