@@ -31,4 +31,4 @@ Uma checklist interativa para acompanhar a conclusão de 100% do Elden Ring e da
 Clone o projeto:
 
 ```bash
-git clone https://github.com/SteveKXx/Elden-Ring-Checklist.git
+git clone https://github.com/wsteve-dev/Elden-Ring-Checklist.git
