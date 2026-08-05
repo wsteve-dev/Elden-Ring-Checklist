@@ -4,19 +4,17 @@ Uma checklist interativa para acompanhar a conclusão de 100% do Elden Ring e da
 
 ## ✨ Funcionalidades
 
-- [x] Armas 
-- [x] Armaduras 
-- [x] Talismãs 
-- [x] Feitiçarias 
-- [x] Encantamentos 
-- [x] Cinzas da Guerra 
-- [ ] Invocações 
-- [ ] Cristais 
-- [ ] NPCs 
-- [ ] Chefes 
-- [ ] Progresso salvo automaticamente 
-- [ ] Interface responsiva 
-- [x] Suporte a múltiplos idiomas
+- 🟢 Armas 
+- 🟢 Armaduras 
+- 🟢 Talismãs 
+- 🟢 Feitiçarias 
+- 🟢 Encantamentos 
+- 🟢 Cinzas da Guerra 
+- 🟢 Invocações 
+- 🔴 Progresso salvo automaticamente 
+- 🔴 Interface responsiva 
+- 🟢 Suporte a múltiplos idiomas
+- 🔴 Mapa interativo
 
 ## 🛠 Tecnologias
 
