@@ -835,10 +835,10 @@
             },
             {
               "name": "失地騎士セット",
-              "helm": "Banished Knight Helm",
-              "chest": "Banished Knight Armor",
-              "gauntlets": "Banished Knight Gauntlets",
-              "legs": "Banished Knight Greaves"
+              "helm": "失地騎士の兜",
+              "chest": "失地騎士の鎧",
+              "gauntlets": "失地騎士の手甲",
+              "legs": "失地騎士の足甲"
             },
             {
               "name": "戦魔術師セット",
@@ -856,17 +856,17 @@
             },
             {
               "name": "黒き刃セット",
-              "helm": "Black Dumpling",
-              "chest": "Black Knife Armor",
-              "gauntlets": "Black Knife Gauntlets",
-              "legs": "Black Knife Greaves"
+              "helm": "黒き刃の兜",
+              "chest": "黒き刃の鎧",
+              "gauntlets": "黒き刃の手甲",
+              "legs": "黒き刃の足甲"
             },
             {
               "name": "黒炎僧兵セット",
-              "helm": "Blackflame Monk Hood",
-              "chest": "Blackflame Monk Armor",
-              "gauntlets": "Blackflame Monk Gauntlets",
-              "legs": "Blackflame Monk Greaves"
+              "helm": "黒炎僧兵の兜",
+              "chest": "黒炎僧兵の鎧",
+              "gauntlets": "黒炎僧兵の手甲",
+              "legs": "黒炎僧兵の足甲"
             },
             {
               "name": "ブライヴセット",
@@ -877,10 +877,10 @@
             },
             {
               "name": "猟犬騎士セット",
-              "helm": "Bloodhound Knight Helm",
-              "chest": "Bloodhound Knight Armor",
-              "gauntlets": "Bloodhound Knight Gauntlets",
-              "legs": "Bloodhound Knight Greaves"
+              "helm": "猟犬騎士の兜",
+              "chest": "猟犬騎士の鎧",
+              "gauntlets": "猟犬騎士の手甲",
+              "legs": "猟犬騎士の足甲"
             },
             {
               "name": "官吏セット",
@@ -926,10 +926,10 @@
             },
             {
               "name": "カーリア騎士セット",
-              "helm": "Carian Knight Helm",
-              "chest": "Carian Knight Armor",
-              "gauntlets": "Carian Knight Gauntlets",
-              "legs": "Carian Knight Greaves"
+              "helm": "カーリア騎士の兜",
+              "chest": "カーリア騎士の鎧",
+              "gauntlets": "カーリア騎士の手甲",
+              "legs": "カーリア騎士の足甲"
             },
             {
               "name": "チェインメイルセット",
@@ -947,10 +947,10 @@
             },
             {
               "name": "貴腐騎士セット",
-              "helm": "Cleanrot Helm",
-              "chest": "Cleanrot Armor",
-              "gauntlets": "Cleanrot Gauntlets",
-              "legs": "Cleanrot Greaves"
+              "helm": "貴腐騎士の兜",
+              "chest": "貴腐騎士の鎧",
+              "gauntlets": "貴腐騎士の手甲",
+              "legs": "貴腐騎士の足甲"
             },
             {
               "name": "市民の服セット",
@@ -989,31 +989,31 @@
             },
             {
               "name": "カッコウ騎士セット",
-              "helm": "Cuckoo Knight Helm",
-              "chest": null,
-              "gauntlets": "Cuckoo Knight Gauntlets",
-              "legs": "Cuckoo Knight Greaves"
+              "helm": "カッコウ騎士の兜",
+              "chest": "カッコウ騎士の鎧",
+              "gauntlets": "カッコウ騎士の手甲",
+              "legs": "カッコウ騎士の足甲"
             },
             {
               "name": "堕落調香師セット",
-              "helm": "Depraved Perfumer Headscarf",
-              "chest": null,
-              "gauntlets": "Depraved Perfumer Gloves",
-              "legs": "Depraved Perfumer Trousers"
+              "helm": "堕落調香師の帽子",
+              "chest": "堕落調香師のローブ",
+              "gauntlets": "堕落調香師の手袋",
+              "legs": "堕落調香師のズボン"
             },
             {
               "name": "竜騎士セット",
-              "helm": "Drake Knight Helm",
-              "chest": "Drake Knight Armor",
-              "gauntlets": "Drake Knight Gauntlets",
-              "legs": "Drake Knight Greaves"
+              "helm": "竜騎士の兜",
+              "chest": "竜騎士の鎧",
+              "gauntlets": "竜騎士の手甲",
+              "legs": "竜騎士の足甲"
             },
             {
               "name": "墓守闘士セット",
-              "helm": "Rotten Duelist Helm",
-              "chest": null,
+              "helm": "闘士の兜",
+              "chest": "闘士の鎧",
               "gauntlets": null,
-              "legs": "Duelist Greaves"
+              "legs": "闘士の足甲"
             },
             {
               "name": "奇矯騎士セット",
@@ -1094,10 +1094,10 @@
             },
             {
               "name": "ゲルミア騎士セット",
-              "helm": "Gelmir Knight Helm",
-              "chest": "Gelmir Knight Armor",
-              "gauntlets": "Gelmir Knight Gauntlets",
-              "legs": "Gelmir Knight Greaves"
+              "helm": "ゲルミア騎士の兜",
+              "chest": "ゲルミア騎士の鎧",
+              "gauntlets": "ゲルミア騎士の手甲",
+              "legs": "ゲルミア騎士の足甲"
             },
             {
               "name": "ラダーンセット",
@@ -1108,24 +1108,24 @@
             },
             {
               "name": "ゴドリック雑兵セット",
-              "helm": "Godrick Knight Helm",
-              "chest": "Godrick Knight Armor",
-              "gauntlets": "Godrick Knight Gauntlets",
-              "legs": "Godrick Knight Greaves"
+              "helm": "ゴドリック雑兵の兜",
+              "chest": "ゴドリック雑兵の鎧",
+              "gauntlets": "ゴドリック雑兵の手甲",
+              "legs": "ゴドリック雑兵の足甲"
             },
             {
               "name": "ゴドリック騎士セット",
-              "helm": "Godrick Knight Helm",
-              "chest": "Godrick Knight Armor",
-              "gauntlets": "Godrick Knight Gauntlets",
-              "legs": "Godrick Knight Greaves"
+              "helm": "ゴドリック騎士の兜",
+              "chest": "ゴドリック騎士の鎧",
+              "gauntlets": "ゴドリック騎士の手甲",
+              "legs": "ゴドリック騎士の足甲"
             },
             {
               "name": "ゴドリック兵セット",
-              "helm": "Godrick Knight Helm",
-              "chest": "Godrick Knight Armor",
-              "gauntlets": "Godrick Knight Gauntlets",
-              "legs": "Godrick Knight Greaves"
+              "helm": "ゴドリック兵の兜",
+              "chest": "ゴドリック兵の鎧",
+              "gauntlets": "ゴドリック兵の手甲",
+              "legs": "ゴドリック兵の足甲"
             },
             {
               "name": "神肌の使徒セット",
@@ -1164,17 +1164,17 @@
             },
             {
               "name": "聖樹雑兵セット",
-              "helm": "Haligtree Helm",
-              "chest": "Haligtree Crest Surcoat",
-              "gauntlets": "Haligtree Gauntlets",
-              "legs": "Haligtree Greaves"
+              "helm": "聖樹雑兵の兜",
+              "chest": "聖樹雑兵の鎧",
+              "gauntlets": "聖樹雑兵の手甲",
+              "legs": "聖樹雑兵の足甲"
             },
             {
               "name": "聖樹騎士セット",
-              "helm": "Haligtree Helm",
-              "chest": "Haligtree Crest Surcoat",
-              "gauntlets": "Haligtree Gauntlets",
-              "legs": "Haligtree Greaves"
+              "helm": "聖樹騎士の兜",
+              "chest": "聖樹騎士の鎧",
+              "gauntlets": "聖樹騎士の手甲",
+              "legs": "聖樹騎士の足甲"
             },
             {
               "name": "聖樹兵セット",
@@ -1234,10 +1234,10 @@
             },
             {
               "name": "騎士セット",
-              "helm": "Banished Knight Helm",
-              "chest": "Banished Knight Armor",
-              "gauntlets": "Banished Knight Gauntlets",
-              "legs": "Banished Knight Greaves"
+              "helm": "騎士の兜",
+              "chest": "騎士の鎧",
+              "gauntlets": "騎士の手甲",
+              "legs": "騎士の足甲"
             },
             {
               "name": "葦の国セット",
@@ -1262,24 +1262,24 @@
             },
             {
               "name": "ローデイル雑兵セット",
-              "helm": "Leyndell Knight Helm",
-              "chest": "Leyndell Knight Armor",
-              "gauntlets": "Leyndell Knight Gauntlets",
-              "legs": "Leyndell Knight Greaves"
+              "helm": "ローデイル雑兵の兜",
+              "chest": "ローデイル雑兵の鎧",
+              "gauntlets": "ローデイル雑兵の手甲",
+              "legs": "ローデイル雑兵の足甲"
             },
             {
               "name": "ローデイル騎士セット",
-              "helm": "Leyndell Knight Helm",
-              "chest": "Leyndell Knight Armor",
-              "gauntlets": "Leyndell Knight Gauntlets",
-              "legs": "Leyndell Knight Greaves"
+              "helm": "ローデイル騎士の兜",
+              "chest": "ローデイル騎士の鎧",
+              "gauntlets": "ローデイル騎士の手甲",
+              "legs": "ローデイル騎士の足甲"
             },
             {
               "name": "ローデイル兵セット",
-              "helm": "Leyndell Knight Helm",
-              "chest": "Leyndell Knight Armor",
-              "gauntlets": "Leyndell Knight Gauntlets",
-              "legs": "Leyndell Knight Greaves"
+              "helm": "ローデイル兵の兜",
+              "chest": "ローデイル兵の鎧",
+              "gauntlets": "ローデイル兵の手甲",
+              "legs": "ローデイル兵の足甲"
             },
             {
               "name": "ライオネルセット",
@@ -1318,10 +1318,10 @@
             },
             {
               "name": "人形兵セット",
-              "helm": "Marionette Soldier Birdhelm",
-              "chest": "Marionette Soldier Armor",
-              "gauntlets": null,
-              "legs": null
+              "helm": "人形兵の兜",
+              "chest": "人形兵の鎧",
+              "gauntlets": "人形兵の手甲",
+              "legs": "人形兵の足甲"
             },
             {
               "name": "霊廟雑兵セット",
@@ -1367,10 +1367,10 @@
             },
             {
               "name": "夜の騎兵セット",
-              "helm": "Night's Cavalry Helm",
-              "chest": "Night's Cavalry Armor",
-              "gauntlets": "Night's Cavalry Gauntlets",
-              "legs": "Night's Cavalry Greaves"
+              "helm": "夜の騎兵の兜",
+              "chest": "夜の騎兵の鎧",
+              "gauntlets": "夜の騎兵の手甲",
+              "legs": "夜の騎兵の足甲"
             },
             {
               "name": "貴族セット",
@@ -1472,17 +1472,17 @@
             },
             {
               "name": "ラダーン雑兵セット",
-              "helm": "Radahn's Redmane Helm",
-              "chest": null,
-              "gauntlets": "Radahn Soldier Gauntlets",
-              "legs": "Radahn Soldier Greaves"
+              "helm": "ラダーン雑兵の兜",
+              "chest": "ラダーン雑兵の鎧",
+              "gauntlets": "ラダーン雑兵の手甲",
+              "legs": "ラダーン雑兵の足甲"
             },
             {
               "name": "ラダーン兵セット",
-              "helm": "Radahn's Redmane Helm",
-              "chest": null,
-              "gauntlets": "Radahn Soldier Gauntlets",
-              "legs": "Radahn Soldier Greaves"
+              "helm": "ラダーン兵の兜",
+              "chest": "ラダーン兵の鎧",
+              "gauntlets": "ラダーン兵の手甲",
+              "legs": "ラダーン兵の足甲"
             },
             {
               "name": "戦鬼セット",
@@ -1500,17 +1500,17 @@
             },
             {
               "name": "レアルカリア雑兵セット",
-              "helm": "Raya Lucarian Helm",
-              "chest": "Raya Lucarian Robe",
-              "gauntlets": "Raya Lucarian Gauntlets",
-              "legs": "Raya Lucarian Greaves"
+              "helm": "レアルカリア雑兵の兜",
+              "chest": "レアルカリア雑兵の鎧",
+              "gauntlets": "レアルカリア雑兵の手甲",
+              "legs": "レアルカリア雑兵の足甲"
             },
             {
               "name": "レアルカリア兵セット",
-              "helm": "Raya Lucarian Helm",
-              "chest": "Raya Lucarian Robe",
-              "gauntlets": "Raya Lucarian Gauntlets",
-              "legs": "Raya Lucarian Greaves"
+              "helm": "レアルカリア兵の兜",
+              "chest": "レアルカリア兵の鎧",
+              "gauntlets": "レアルカリア兵の手甲",
+              "legs": "レアルカリア兵の足甲"
             },
             {
               "name": "レアルカリアンセット",
@@ -1521,10 +1521,10 @@
             },
             {
               "name": "赤獅子騎士セット",
-              "helm": "Radahn's Redmane Helm",
-              "chest": "Redmane Knight Armor",
-              "gauntlets": "Redmane Knight Gauntlets",
-              "legs": "Redmane Knight Greaves"
+              "helm": "赤獅子騎士の兜",
+              "chest": "赤獅子騎士の鎧",
+              "gauntlets": "赤獅子騎士の手甲",
+              "legs": "赤獅子騎士の足甲"
             },
             {
               "name": "浪人セット",
@@ -1542,10 +1542,10 @@
             },
             {
               "name": "親衛騎士セット",
-              "helm": "Royal Knight Helm",
-              "chest": "Royal Knight Armor",
-              "gauntlets": "Royal Knight Gauntlets",
-              "legs": "Royal Knight Greaves"
+              "helm": "親衛騎士の兜",
+              "chest": "親衛騎士の鎧",
+              "gauntlets": "親衛騎士の手甲",
+              "legs": "親衛騎士の足甲"
             },
             {
               "name": "王骸の鎧セット",
@@ -1633,10 +1633,10 @@
             },
             {
               "name": "放浪騎士セット",
-              "helm": "Vagabond Knight Helm",
-              "chest": null,
-              "gauntlets": "Vagabond Knight Gauntlets",
-              "legs": "Vagabond Knight Greaves"
+              "helm": "放浪騎士の兜",
+              "chest": "放浪騎士の鎧",
+              "gauntlets": "放浪騎士の手甲",
+              "legs": "放浪騎士の足甲"
             },
             {
               "name": "宿将セット",
