@@ -785,889 +785,889 @@
           "name": "本編",
           "items": [
             {
-              "name": "Alberich's Set",
+              "name": "アルベリッヒセット",
               "helm": "Alberich's Pointed Hat",
               "chest": "Alberich's Robe",
               "gauntlets": "Alberich's Bracers",
               "legs": "Alberich's Trousers"
             },
             {
-              "name": "Albinauric Set",
+              "name": "しろがね人セット",
               "helm": "Albinauric Mask",
               "chest": null,
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "All-Knowing Set",
+              "name": "百智の鎧セット",
               "helm": "All-Knowing Helm",
               "chest": "All-Knowing Armor",
               "gauntlets": "All-Knowing Gauntlets",
               "legs": "All-Knowing Greaves"
             },
             {
-              "name": "Aristocrat Set",
+              "name": "貴人の服セット",
               "helm": "Aristocrat Hat",
               "chest": "Aristocrat Coat",
               "gauntlets": null,
               "legs": "Aristocrat Boots"
             },
             {
-              "name": "Astrologer Set",
+              "name": "星見セット",
               "helm": "Astrologer Hood",
               "chest": "Astrologer Robe",
               "gauntlets": "Astrologer Gloves",
               "legs": "Astrologer Trousers"
             },
             {
-              "name": "Azur's Glintstone Set",
+              "name": "アズールセット",
               "helm": "Azur's Glintstone Crown",
               "chest": "Azur's Glintstone Robe",
               "gauntlets": "Azur's Manchettes",
               "legs": null
             },
             {
-              "name": "Bandit Set",
+              "name": "盗賊セット",
               "helm": "Bandit Mask",
               "chest": "Bandit Garb",
               "gauntlets": "Bandit Manchettes",
               "legs": "Bandit Boots"
             },
             {
-              "name": "Banished Knight Set",
+              "name": "失地騎士セット",
               "helm": "Banished Knight Helm",
               "chest": "Banished Knight Armor",
               "gauntlets": "Banished Knight Gauntlets",
               "legs": "Banished Knight Greaves"
             },
             {
-              "name": "Battlemage Set",
+              "name": "戦魔術師セット",
               "helm": null,
               "chest": "Battlemage Robe",
               "gauntlets": "Battlemage Manchettes",
               "legs": "Battlemage Legwraps"
             },
             {
-              "name": "Beast Champion Set",
+              "name": "獣集いの鎧セット",
               "helm": "Beast Champion Helm",
               "chest": "Beast Champion Armor",
               "gauntlets": "Beast Champion Gauntlets",
               "legs": "Beast Champion Greaves"
             },
             {
-              "name": "Black Knife Set",
+              "name": "黒き刃セット",
               "helm": "Black Dumpling",
               "chest": "Black Knife Armor",
               "gauntlets": "Black Knife Gauntlets",
               "legs": "Black Knife Greaves"
             },
             {
-              "name": "Blackflame Monk Set",
+              "name": "黒炎僧兵セット",
               "helm": "Blackflame Monk Hood",
               "chest": "Blackflame Monk Armor",
               "gauntlets": "Blackflame Monk Gauntlets",
               "legs": "Blackflame Monk Greaves"
             },
             {
-              "name": "Blaidd's Set",
+              "name": "ブライヴセット",
               "helm": null,
               "chest": "Blaidd's Armor",
               "gauntlets": "Blaidd's Gauntlets",
               "legs": "Blaidd's Greaves"
             },
             {
-              "name": "Bloodhound Knight Set",
+              "name": "猟犬騎士セット",
               "helm": "Bloodhound Knight Helm",
               "chest": "Bloodhound Knight Armor",
               "gauntlets": "Bloodhound Knight Gauntlets",
               "legs": "Bloodhound Knight Greaves"
             },
             {
-              "name": "Bloodsoaked Set",
+              "name": "官吏セット",
               "helm": "Bloodsoaked Mask",
               "chest": "Bloodsoaked Tabard",
               "gauntlets": "Bloodsoaked Manchettes",
               "legs": null
             },
             {
-              "name": "Blue Cloth Set",
+              "name": "剣士セット",
               "helm": "Blue Cloth Cowl",
               "chest": "Blue Cloth Vest",
               "gauntlets": "Blue Silver Bracelets",
               "legs": "Blue Silver Mail Skirt"
             },
             {
-              "name": "Blue Festive Set",
+              "name": "祝祭の青セット",
               "helm": "Blue Cloth Cowl",
               "chest": "Blue Cloth Vest",
               "gauntlets": "Blue Silver Bracelets",
               "legs": "Blue Silver Mail Skirt"
             },
             {
-              "name": "Blue Silver Set",
+              "name": "蒼銀セット",
               "helm": "Blue Cloth Cowl",
               "chest": "Blue Cloth Vest",
               "gauntlets": "Blue Silver Bracelets",
               "legs": "Blue Silver Mail Skirt"
             },
             {
-              "name": "Briar Set",
+              "name": "鉄茨セット",
               "helm": "Briar Helm",
               "chest": "Briar Armor",
               "gauntlets": "Briar Gauntlets",
               "legs": "Briar Greaves"
             },
             {
-              "name": "Bull-Goat Set",
+              "name": "大山羊セット",
               "helm": "Bull-Goat Helm",
               "chest": "Bull-Goat Armor",
               "gauntlets": "Bull-Goat Gauntlets",
               "legs": "Bull-Goat Greaves"
             },
             {
-              "name": "Carian Knight Set",
+              "name": "カーリア騎士セット",
               "helm": "Carian Knight Helm",
               "chest": "Carian Knight Armor",
               "gauntlets": "Carian Knight Gauntlets",
               "legs": "Carian Knight Greaves"
             },
             {
-              "name": "Chain Set",
+              "name": "チェインメイルセット",
               "helm": "Chain Coif",
               "chest": "Chain Armor",
               "gauntlets": "Chain Gauntlets",
               "legs": "Chain Leggings"
             },
             {
-              "name": "Champion Set",
+              "name": "勇者セット",
               "helm": "Beast Champion Helm",
               "chest": "Beast Champion Armor",
               "gauntlets": "Beast Champion Gauntlets",
               "legs": "Beast Champion Greaves"
             },
             {
-              "name": "Cleanrot Set",
+              "name": "貴腐騎士セット",
               "helm": "Cleanrot Helm",
               "chest": "Cleanrot Armor",
               "gauntlets": "Cleanrot Gauntlets",
               "legs": "Cleanrot Greaves"
             },
             {
-              "name": "Commoner's Set",
+              "name": "市民の服セット",
               "helm": "Commoner's Headband",
               "chest": "Commoner's Garb",
               "gauntlets": null,
               "legs": "Commoner's Shoes"
             },
             {
-              "name": "Confessor Set",
+              "name": "密使セット",
               "helm": "Confessor Hood",
               "chest": "Confessor Armor",
               "gauntlets": "Confessor Gloves",
               "legs": "Confessor Boots"
             },
             {
-              "name": "Consort's Set",
+              "name": "側妃セット",
               "helm": "Consort's Mask",
               "chest": null,
               "gauntlets": null,
               "legs": "Consort's Trousers"
             },
             {
-              "name": "Crucible Axe Set",
+              "name": "坩堝の斧鎧セット",
               "helm": "Crucible Axe Helm",
               "chest": "Crucible Axe Armor",
               "gauntlets": "Crucible Gauntlets",
               "legs": "Crucible Greaves"
             },
             {
-              "name": "Crucible Tree Set",
+              "name": "坩堝の樹鎧セット",
               "helm": "Crucible Axe Helm",
               "chest": null,
               "gauntlets": "Crucible Gauntlets",
               "legs": "Crucible Greaves"
             },
             {
-              "name": "Cuckoo Knight Set",
+              "name": "カッコウ騎士セット",
               "helm": "Cuckoo Knight Helm",
               "chest": null,
               "gauntlets": "Cuckoo Knight Gauntlets",
               "legs": "Cuckoo Knight Greaves"
             },
             {
-              "name": "Depraved Perfumer Set",
+              "name": "堕落調香師セット",
               "helm": "Depraved Perfumer Headscarf",
               "chest": null,
               "gauntlets": "Depraved Perfumer Gloves",
               "legs": "Depraved Perfumer Trousers"
             },
             {
-              "name": "Drake Knight Set",
+              "name": "竜騎士セット",
               "helm": "Drake Knight Helm",
               "chest": "Drake Knight Armor",
               "gauntlets": "Drake Knight Gauntlets",
               "legs": "Drake Knight Greaves"
             },
             {
-              "name": "Duelist Set",
+              "name": "墓守闘士セット",
               "helm": "Rotten Duelist Helm",
               "chest": null,
               "gauntlets": null,
               "legs": "Duelist Greaves"
             },
             {
-              "name": "Eccentric Set",
+              "name": "奇矯騎士セット",
               "helm": "Eccentric's Hood",
               "chest": "Eccentric's Armor",
               "gauntlets": "Eccentric's Manchettes",
               "legs": "Eccentric's Breeches"
             },
             {
-              "name": "Elden Lord Set",
+              "name": "エルデ王セット",
               "helm": "Elden Lord Crown",
               "chest": "Elden Lord Armor",
               "gauntlets": "Elden Lord Bracers",
               "legs": "Elden Lord Greaves"
             },
             {
-              "name": "Errant Sorcerer Set",
+              "name": "はぐれ魔術師セット",
               "helm": null,
               "chest": "Errant Sorcerer Robe",
               "gauntlets": "Errant Sorcerer Manchettes",
               "legs": "Errant Sorcerer Boots"
             },
             {
-              "name": "Exile Set",
+              "name": "流刑兵セット",
               "helm": "Exile Hood",
               "chest": "Exile Armor",
               "gauntlets": "Exile Gauntlets",
               "legs": "Exile Greaves"
             },
             {
-              "name": "Festive Set",
+              "name": "祝祭セット",
               "helm": "Blue Festive Hood",
               "chest": "Blue Festive Garb",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Fia's Set",
+              "name": "フィアセット",
               "helm": "Fia's Hood",
               "chest": "Fia's Robe",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Finger Maiden Set",
+              "name": "指巫女セット",
               "helm": "Finger Maiden Fillet",
               "chest": "Finger Maiden Robe",
               "gauntlets": "Fingerprint Gauntlets",
               "legs": "Finger Maiden Shoes"
             },
             {
-              "name": "Fingerprint Set",
+              "name": "指痕の鎧セット",
               "helm": "Fingerprint Helm",
               "chest": "Fingerprint Armor",
               "gauntlets": "Fingerprint Gauntlets",
               "legs": "Fingerprint Greaves"
             },
             {
-              "name": "Fire Monk Set",
+              "name": "火の僧兵セット",
               "helm": "Fire Prelate Helm",
               "chest": "Fire Knight Armor",
               "gauntlets": "Fire Knight Gauntlets",
               "legs": "Fire Knight Greaves"
             },
             {
-              "name": "Fire Prelate Set",
+              "name": "火の司教セット",
               "helm": "Fire Prelate Helm",
               "chest": "Fire Knight Armor",
               "gauntlets": "Fire Knight Gauntlets",
               "legs": "Fire Knight Greaves"
             },
             {
-              "name": "Fur Set",
+              "name": "祖霊の民セット",
               "helm": null,
               "chest": "Fur Raiment",
               "gauntlets": null,
               "legs": "Fur Leggings"
             },
             {
-              "name": "Gelmir Knight Set",
+              "name": "ゲルミア騎士セット",
               "helm": "Gelmir Knight Helm",
               "chest": "Gelmir Knight Armor",
               "gauntlets": "Gelmir Knight Gauntlets",
               "legs": "Gelmir Knight Greaves"
             },
             {
-              "name": "General Radahn Set",
+              "name": "ラダーンセット",
               "helm": null,
               "chest": null,
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Godrick Foot Soldier Set",
+              "name": "ゴドリック雑兵セット",
               "helm": "Godrick Knight Helm",
               "chest": "Godrick Knight Armor",
               "gauntlets": "Godrick Knight Gauntlets",
               "legs": "Godrick Knight Greaves"
             },
             {
-              "name": "Godrick Knight Set",
+              "name": "ゴドリック騎士セット",
               "helm": "Godrick Knight Helm",
               "chest": "Godrick Knight Armor",
               "gauntlets": "Godrick Knight Gauntlets",
               "legs": "Godrick Knight Greaves"
             },
             {
-              "name": "Godrick Soldier Set",
+              "name": "ゴドリック兵セット",
               "helm": "Godrick Knight Helm",
               "chest": "Godrick Knight Armor",
               "gauntlets": "Godrick Knight Gauntlets",
               "legs": "Godrick Knight Greaves"
             },
             {
-              "name": "Godskin Apostle Set",
+              "name": "神肌の使徒セット",
               "helm": "Godskin Apostle Hood",
               "chest": "Godskin Apostle Robe",
               "gauntlets": "Godskin Apostle Bracelets",
               "legs": "Godskin Apostle Trousers"
             },
             {
-              "name": "Godskin Noble Set",
+              "name": "神肌の貴種セット",
               "helm": "Godskin Apostle Hood",
               "chest": "Godskin Apostle Robe",
               "gauntlets": "Godskin Apostle Bracelets",
               "legs": "Godskin Apostle Trousers"
             },
             {
-              "name": "Goldmask's Set",
+              "name": "金仮面セット",
               "helm": "Radiant Gold Mask",
               "chest": "Goldmask's Rags",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Guardian Set",
+              "name": "守人セット",
               "helm": "Guardian Mask",
               "chest": "Guardian Garb",
               "gauntlets": "Guardian Bracers",
               "legs": "Guardian Greaves"
             },
             {
-              "name": "Guilty Set",
+              "name": "罪人セット",
               "helm": "Guilty Hood",
               "chest": null,
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Haligtree Foot Soldier Set",
+              "name": "聖樹雑兵セット",
               "helm": "Haligtree Helm",
               "chest": "Haligtree Crest Surcoat",
               "gauntlets": "Haligtree Gauntlets",
               "legs": "Haligtree Greaves"
             },
             {
-              "name": "Haligtree Knight Set",
+              "name": "聖樹騎士セット",
               "helm": "Haligtree Helm",
               "chest": "Haligtree Crest Surcoat",
               "gauntlets": "Haligtree Gauntlets",
               "legs": "Haligtree Greaves"
             },
             {
-              "name": "Haligtree Soldier Set",
+              "name": "聖樹兵セット",
               "helm": "Haligtree Helm",
               "chest": "Haligtree Crest Surcoat",
               "gauntlets": "Haligtree Gauntlets",
               "legs": "Haligtree Greaves"
             },
             {
-              "name": "High Page Set",
+              "name": "上流小姓セット",
               "helm": "High Page Hood",
               "chest": "High Page Clothes",
               "gauntlets": "High Priest Gloves",
               "legs": "High Priest Undergarments"
             },
             {
-              "name": "Highwayman Set",
+              "name": "追い剥ぎセット",
               "helm": "Highwayman Hood",
               "chest": "Highwayman Cloth Armor",
               "gauntlets": "Highwayman Gauntlets",
               "legs": null
             },
             {
-              "name": "Hoslow's Set",
+              "name": "ホスローセット",
               "helm": "Hoslow's Helm",
               "chest": "Hoslow's Armor",
               "gauntlets": "Hoslow's Gauntlets",
               "legs": "Hoslow's Greaves"
             },
             {
-              "name": "House Marais Set",
+              "name": "マレー家セット",
               "helm": "Marais Mask",
               "chest": null,
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Iron Set",
+              "name": "鉄の鎧セット",
               "helm": "Blackguard's Iron Mask",
               "chest": "Iron Rivet Armor",
               "gauntlets": "Iron Gauntlets",
               "legs": null
             },
             {
-              "name": "Juvenile Scholar Set",
+              "name": "幼年学徒セット",
               "helm": "Juvenile Scholar Cap",
               "chest": "Juvenile Scholar Robe",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Kaiden Set",
+              "name": "カイデンセット",
               "helm": "Kaiden Helm",
               "chest": "Kaiden Armor",
               "gauntlets": "Kaiden Gauntlets",
               "legs": "Kaiden Trousers"
             },
             {
-              "name": "Knight Set",
+              "name": "騎士セット",
               "helm": "Banished Knight Helm",
               "chest": "Banished Knight Armor",
               "gauntlets": "Banished Knight Gauntlets",
               "legs": "Banished Knight Greaves"
             },
             {
-              "name": "Land of Reeds Set",
-              "helm": "Land of Reeds Helm",
-              "chest": "Highland Attire",
-              "gauntlets": "Land of Reeds Gauntlets",
-              "legs": "Land of Reeds Greaves"
+              "name": "葦の国セット",
+              "helm": "葦の国の兜",
+              "chest": "葦の国の鎧",
+              "gauntlets": "葦の国のガントレット",
+              "legs": "葦の地グリーブス"
             },
             {
-              "name": "Lazuli Sorcerer Set",
+              "name": "ラズリセット",
               "helm": "Lazuli Glintstone Crown",
               "chest": "Lazuli Robe",
               "gauntlets": "Sorcerer Manchettes",
               "legs": "Sorcerer Leggings"
             },
             {
-              "name": "Leather Set",
+              "name": "革の鎧セット",
               "helm": "Brave's Leather Helm",
               "chest": "Leather Armor",
               "gauntlets": "Leather Gloves",
               "legs": "Leather Boots"
             },
             {
-              "name": "Leyndell Foot Soldier Set",
+              "name": "ローデイル雑兵セット",
               "helm": "Leyndell Knight Helm",
               "chest": "Leyndell Knight Armor",
               "gauntlets": "Leyndell Knight Gauntlets",
               "legs": "Leyndell Knight Greaves"
             },
             {
-              "name": "Leyndell Knight Set",
+              "name": "ローデイル騎士セット",
               "helm": "Leyndell Knight Helm",
               "chest": "Leyndell Knight Armor",
               "gauntlets": "Leyndell Knight Gauntlets",
               "legs": "Leyndell Knight Greaves"
             },
             {
-              "name": "Leyndell Soldier Set",
+              "name": "ローデイル兵セット",
               "helm": "Leyndell Knight Helm",
               "chest": "Leyndell Knight Armor",
               "gauntlets": "Leyndell Knight Gauntlets",
               "legs": "Leyndell Knight Greaves"
             },
             {
-              "name": "Lionel's Set",
+              "name": "ライオネルセット",
               "helm": "Lionel's Helm",
               "chest": "Lionel's Armor",
               "gauntlets": "Lionel's Gauntlets",
               "legs": "Lionel's Greaves"
             },
             {
-              "name": "Lusat's Set",
+              "name": "ルーサットセット",
               "helm": "Lusat's Glintstone Crown",
               "chest": "Lusat's Robe",
               "gauntlets": "Lusat's Manchettes",
               "legs": null
             },
             {
-              "name": "Malenia's Set",
+              "name": "マレニアセット",
               "helm": "Malenia's Winged Helm",
               "chest": "Malenia's Armor",
               "gauntlets": "Malenia's Gauntlet",
               "legs": "Malenia's Greaves"
             },
             {
-              "name": "Malformed Dragon Set",
+              "name": "異形の竜セット",
               "helm": "Malformed Dragon Helm",
               "chest": "Malformed Dragon Armor",
               "gauntlets": "Malformed Dragon Gauntlets",
               "legs": "Malformed Dragon Greaves"
             },
             {
-              "name": "Maliketh's Set",
+              "name": "マリケスセット",
               "helm": "Maliketh's Helm",
               "chest": "Maliketh's Armor",
               "gauntlets": "Maliketh's Gauntlets",
               "legs": "Maliketh's Greaves"
             },
             {
-              "name": "Marionette Soldier Set",
+              "name": "人形兵セット",
               "helm": "Marionette Soldier Birdhelm",
               "chest": "Marionette Soldier Armor",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Mausoleum Foot Soldier Set",
+              "name": "霊廟雑兵セット",
               "helm": null,
               "chest": "Mausoleum Knight Armor",
               "gauntlets": "Mausoleum Gauntlets",
               "legs": "Mausoleum Greaves"
             },
             {
-              "name": "Mausoleum Knight Set",
+              "name": "霊廟騎士セット",
               "helm": null,
               "chest": "Mausoleum Knight Armor",
               "gauntlets": "Mausoleum Gauntlets",
               "legs": "Mausoleum Greaves"
             },
             {
-              "name": "Mausoleum Soldier Set",
+              "name": "霊廟兵セット",
               "helm": null,
               "chest": "Mausoleum Knight Armor",
               "gauntlets": "Mausoleum Gauntlets",
               "legs": "Mausoleum Greaves"
             },
             {
-              "name": "Millicent's Set",
+              "name": "ミリセントセット",
               "helm": null,
               "chest": "Millicent's Robe",
               "gauntlets": "Millicent's Gloves",
               "legs": "Millicent's Boots"
             },
             {
-              "name": "Mushroom Set",
+              "name": "キノコセット",
               "helm": "Mushroom Crown",
               "chest": "Mushroom Body",
               "gauntlets": "Mushroom Arms",
               "legs": "Mushroom Legs"
             },
             {
-              "name": "Night Maiden Set",
+              "name": "夜巫女セット",
               "helm": "Banished Knight Helm",
               "chest": "Armor of Night",
               "gauntlets": "Banished Knight Gauntlets",
               "legs": "Banished Knight Greaves"
             },
             {
-              "name": "Night's Cavalry Set",
+              "name": "夜の騎兵セット",
               "helm": "Night's Cavalry Helm",
               "chest": "Night's Cavalry Armor",
               "gauntlets": "Night's Cavalry Gauntlets",
               "legs": "Night's Cavalry Greaves"
             },
             {
-              "name": "Noble's Set",
+              "name": "貴族セット",
               "helm": null,
               "chest": "Noble's Traveling Garb",
               "gauntlets": "Noble's Gloves",
               "legs": "Noble's Trousers"
             },
             {
-              "name": "Nomadic Merchant's Set",
+              "name": "放浪商人セット",
               "helm": "Nomadic Merchant's Chapeau",
               "chest": "Nomadic Merchant's Finery",
               "gauntlets": null,
               "legs": "Nomadic Merchant's Trousers"
             },
             {
-              "name": "Nox Monk Set",
+              "name": "ノクス僧セット",
               "helm": "Nox Mirrorhelm",
               "chest": "Nox Monk Armor",
               "gauntlets": "Nox Bracelets",
               "legs": "Nox Greaves"
             },
             {
-              "name": "Nox Swordstress Set",
+              "name": "ノクス剣士セット",
               "helm": "Nox Mirrorhelm",
               "chest": "Nox Monk Armor",
               "gauntlets": "Nox Bracelets",
               "legs": "Nox Greaves"
             },
             {
-              "name": "Old Aristocrat Set",
+              "name": "老貴人の服セット",
               "helm": "Foot Soldier Cap",
               "chest": "Common Soldier Cloth Armor",
               "gauntlets": "Common Soldier Gauntlets",
               "legs": "Common Soldier Greaves"
             },
             {
-              "name": "Omen Set",
+              "name": "忌み鎧セット",
               "helm": "Omen Helm",
               "chest": "Fell Omen Cloak",
               "gauntlets": "Omen Gauntlets",
               "legs": "Omen Greaves"
             },
             {
-              "name": "Omenkiller Set",
+              "name": "忌み潰しセット",
               "helm": null,
               "chest": "Omenkiller Robe",
               "gauntlets": "Omenkiller Long Gloves",
               "legs": "Omenkiller Boots"
             },
             {
-              "name": "Page Set",
+              "name": "小姓セット",
               "helm": "High Page Hood",
               "chest": "High Page Clothes",
               "gauntlets": null,
               "legs": "Page Trousers"
             },
             {
-              "name": "Perfumer Set",
+              "name": "調香師セット",
               "helm": "Depraved Perfumer Headscarf",
               "chest": "Perfumer Robe",
               "gauntlets": "Depraved Perfumer Gloves",
               "legs": "Depraved Perfumer Trousers"
             },
             {
-              "name": "Perfumer Traveler's Set",
+              "name": "調香師の旅装セット",
               "helm": "Depraved Perfumer Headscarf",
               "chest": "Perfumer Robe",
               "gauntlets": "Depraved Perfumer Gloves",
               "legs": "Depraved Perfumer Trousers"
             },
             {
-              "name": "Preceptor's Set",
+              "name": "魔術教授セット",
               "helm": "Preceptor's Big Hat",
               "chest": "Preceptor's Long Gown",
               "gauntlets": "Preceptor's Gloves",
               "legs": "Preceptor's Trousers"
             },
             {
-              "name": "Prisoner Set",
+              "name": "囚人セット",
               "helm": "Prisoner Iron Mask",
               "chest": "Prisoner Clothing",
               "gauntlets": null,
               "legs": "Prisoner Trousers"
             },
             {
-              "name": "Prophet Set",
+              "name": "預言者セット",
               "helm": null,
               "chest": "Prophet Robe",
               "gauntlets": null,
               "legs": "Prophet Trousers"
             },
             {
-              "name": "Queen of the Full Moon Set",
+              "name": "女王セット",
               "helm": null,
               "chest": "Queen's Robe",
               "gauntlets": "Queen's Bracelets",
               "legs": "Queen's Leggings"
             },
             {
-              "name": "Radahn Foot Soldier Set",
+              "name": "ラダーン雑兵セット",
               "helm": "Radahn's Redmane Helm",
               "chest": null,
               "gauntlets": "Radahn Soldier Gauntlets",
               "legs": "Radahn Soldier Greaves"
             },
             {
-              "name": "Radahn Soldier Set",
+              "name": "ラダーン兵セット",
               "helm": "Radahn's Redmane Helm",
               "chest": null,
               "gauntlets": "Radahn Soldier Gauntlets",
               "legs": "Radahn Soldier Greaves"
             },
             {
-              "name": "Raging Wolf Set",
+              "name": "戦鬼セット",
               "helm": "Raging Wolf Helm",
               "chest": "Raging Wolf Armor",
               "gauntlets": "Raging Wolf Gauntlets",
               "legs": "Raging Wolf Greaves"
             },
             {
-              "name": "Raptor's Set",
+              "name": "猛禽セット",
               "helm": null,
               "chest": "Raptor's Black Feathers",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Raya Lucarian Foot Soldier Set",
+              "name": "レアルカリア雑兵セット",
               "helm": "Raya Lucarian Helm",
               "chest": "Raya Lucarian Robe",
               "gauntlets": "Raya Lucarian Gauntlets",
               "legs": "Raya Lucarian Greaves"
             },
             {
-              "name": "Raya Lucarian Soldier Set",
+              "name": "レアルカリア兵セット",
               "helm": "Raya Lucarian Helm",
               "chest": "Raya Lucarian Robe",
               "gauntlets": "Raya Lucarian Gauntlets",
               "legs": "Raya Lucarian Greaves"
             },
             {
-              "name": "Raya Lucarian Sorcerer Set",
+              "name": "レアルカリアンセット",
               "helm": "Raya Lucarian Helm",
               "chest": "Raya Lucarian Robe",
               "gauntlets": "Raya Lucarian Gauntlets",
               "legs": "Raya Lucarian Greaves"
             },
             {
-              "name": "Redmane Knight Set",
+              "name": "赤獅子騎士セット",
               "helm": "Radahn's Redmane Helm",
               "chest": "Redmane Knight Armor",
               "gauntlets": "Redmane Knight Gauntlets",
               "legs": "Redmane Knight Greaves"
             },
             {
-              "name": "Ronin's Set",
+              "name": "浪人セット",
               "helm": null,
               "chest": "Ronin's Armor",
               "gauntlets": "Ronin's Gauntlets",
               "legs": "Ronin's Greaves"
             },
             {
-              "name": "Rotten Duelist Set",
+              "name": "腐敗した闘士セット",
               "helm": "Rotten Duelist Helm",
               "chest": "Rotten Gravekeeper Cloak",
               "gauntlets": null,
               "legs": "Rotten Duelist Greaves"
             },
             {
-              "name": "Royal Knight Set",
+              "name": "親衛騎士セット",
               "helm": "Royal Knight Helm",
               "chest": "Royal Knight Armor",
               "gauntlets": "Royal Knight Gauntlets",
               "legs": "Royal Knight Greaves"
             },
             {
-              "name": "Royal Remains Set",
+              "name": "王骸の鎧セット",
               "helm": "Royal Knight Helm",
               "chest": null,
               "gauntlets": "Royal Knight Gauntlets",
               "legs": "Royal Knight Greaves"
             },
             {
-              "name": "Ruler's Set",
+              "name": "領主セット",
               "helm": "Ruler's Mask",
               "chest": "Ruler's Robe",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Sage Set",
+              "name": "賢者セット",
               "helm": "Sage Hood",
               "chest": "Sage Robe",
               "gauntlets": null,
               "legs": "Sage Trousers"
             },
             {
-              "name": "Sanguine Noble Set",
+              "name": "血の貴族セット",
               "helm": "Sanguine Noble Hood",
               "chest": "Sanguine Noble Robe",
               "gauntlets": null,
               "legs": "Sanguine Noble Waistcloth"
             },
             {
-              "name": "Scaled Set",
+              "name": "鱗の鎧セット",
               "helm": "Scaled Helm",
               "chest": null,
               "gauntlets": "Scaled Gauntlets",
               "legs": "Scaled Greaves"
             },
             {
-              "name": "Shaman Set",
+              "name": "祭司セット",
               "helm": null,
               "chest": null,
               "gauntlets": null,
               "legs": "Shaman Leggings"
             },
             {
-              "name": "Snow Witch Set",
+              "name": "雪魔女セット",
               "helm": "Snow Witch Hat",
               "chest": "Snow Witch Robe",
               "gauntlets": null,
               "legs": "Snow Witch Skirt"
             },
             {
-              "name": "Spellblade Set",
+              "name": "魔術剣士セット",
               "helm": "Spellblade's Pointed Hat",
               "chest": null,
               "gauntlets": "Spellblade's Gloves",
               "legs": "Spellblade's Trousers"
             },
             {
-              "name": "Melina's Set",
+              "name": "旅の服セット",
               "helm": null,
               "chest": null,
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Traveling Maiden Set",
+              "name": "旅巫女セット",
               "helm": "Traveling Maiden Hood",
               "chest": "Noble's Traveling Garb",
               "gauntlets": "Traveling Maiden Gloves",
               "legs": "Traveling Maiden Boots"
             },
             {
-              "name": "Tree Sentinel Set",
+              "name": "ツリーガードセット",
               "helm": "Crucible Tree Helm",
               "chest": "Erdtree Surcoat",
               "gauntlets": "Haligtree Gauntlets",
               "legs": "Haligtree Greaves"
             },
             {
-              "name": "Twinned Set",
+              "name": "双児の鎧セット",
               "helm": "Twinned Helm",
               "chest": null,
               "gauntlets": "Twinned Gauntlets",
               "legs": "Twinned Greaves"
             },
             {
-              "name": "Vagabond Knight Set",
+              "name": "放浪騎士セット",
               "helm": "Vagabond Knight Helm",
               "chest": null,
               "gauntlets": "Vagabond Knight Gauntlets",
               "legs": "Vagabond Knight Greaves"
             },
             {
-              "name": "Veteran's Set",
+              "name": "宿将セット",
               "helm": "Veteran's Helm",
               "chest": null,
               "gauntlets": "Veteran's Gauntlets",
               "legs": "Veteran's Greaves"
             },
             {
-              "name": "Vulgar Militia Set",
+              "name": "卑兵セット",
               "helm": "Vulgar Militia Helm",
               "chest": null,
               "gauntlets": "Vulgar Militia Gauntlets",
               "legs": "Vulgar Militia Greaves"
             },
             {
-              "name": "War Surgeon Set",
+              "name": "従軍医師セット",
               "helm": "Ash-of-War Scarab",
               "chest": "Divine Beast Warrior Armor",
               "gauntlets": "Divine Bird Warrior Gauntlets",
               "legs": "Divine Bird Warrior Greaves"
             },
             {
-              "name": "White Reed Set",
+              "name": "白備えセット",
               "helm": "White Mask",
               "chest": "White Reed Armor",
               "gauntlets": "White Reed Gauntlets",
               "legs": "White Reed Greaves"
             },
             {
-              "name": "Zamor Set",
+              "name": "ザミェルセット",
               "helm": null,
               "chest": "Zamor Armor",
               "gauntlets": "Zamor Bracelets",
@@ -1680,210 +1680,210 @@
           "name": "黄金樹の影（DLC）",
           "items": [
             {
-              "name": "Ansbach's Set",
+              "name": "アンスバッハセット",
               "helm": null,
               "chest": "Ansbach's Attire",
               "gauntlets": "Ansbach's Manchettes",
               "legs": "Ansbach's Boots"
             },
             {
-              "name": "Ascetic's Set",
+              "name": "修験者セット",
               "helm": null,
               "chest": "Ascetic's Loincloth",
               "gauntlets": "Ascetic's Wrist Guards",
               "legs": "Ascetic's Ankle Guards"
             },
             {
-              "name": "Black Knight Set",
+              "name": "黒騎士セット",
               "helm": "Black Dumpling",
               "chest": "Black Knife Armor",
               "gauntlets": "Black Knife Gauntlets",
               "legs": "Black Knife Greaves"
             },
             {
-              "name": "Common Soldier Set",
-              "helm": "Commoner's Headband",
-              "chest": "Common Soldier Cloth Armor",
-              "gauntlets": "Common Soldier Gauntlets",
-              "legs": "Common Soldier Greaves"
+              "name": "兵卒装備",
+              "helm": "兵卒の兜",
+              "chest": "兵卒の布鎧",
+              "gauntlets": "兵卒の手甲",
+              "legs": "兵卒の足甲"
             },
             {
-              "name": "Dancer's Set",
+              "name": "踊り子セット",
               "helm": "Dancer's Hood",
               "chest": "Dancer's Dress",
               "gauntlets": "Dancer's Bracer",
               "legs": "Dancer's Trousers"
             },
             {
-              "name": "Dane's Set",
+              "name": "ダンセット",
               "helm": "Dane's Hat",
               "chest": null,
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Death Knight Set",
+              "name": "死の騎士セット",
               "helm": "Death Mask Helm",
               "chest": "Death Knight Armor",
               "gauntlets": "Death Knight Gauntlets",
               "legs": "Death Knight Greaves"
             },
             {
-              "name": "Divine Beast Set",
+              "name": "神獣戦士セット",
               "helm": "Divine Beast Helm",
               "chest": "Divine Beast Warrior Armor",
               "gauntlets": "Divine Bird Warrior Gauntlets",
               "legs": "Divine Bird Warrior Greaves"
             },
             {
-              "name": "Divine Bird Set",
+              "name": "神鳥戦士セット",
               "helm": "Divine Beast Helm",
               "chest": "Divine Beast Warrior Armor",
               "gauntlets": "Divine Bird Warrior Gauntlets",
               "legs": "Divine Bird Warrior Greaves"
             },
             {
-              "name": "Fire Knight Set",
+              "name": "火の騎士セット",
               "helm": "Fire Prelate Helm",
               "chest": "Fire Knight Armor",
               "gauntlets": "Fire Knight Gauntlets",
               "legs": "Fire Knight Greaves"
             },
             {
-              "name": "Freyja's Set",
+              "name": "フレイヤセット",
               "helm": "Freyja's Helm",
               "chest": "Freyja's Armor",
               "gauntlets": null,
               "legs": "Freyja's Greaves"
             },
             {
-              "name": "Gaius's Set",
+              "name": "ガイウスセット",
               "helm": "Gaius's Helm",
               "chest": "Gaius's Armor",
               "gauntlets": "Gaius's Gauntlets",
               "legs": "Gaius's Greaves"
             },
             {
-              "name": "Gravebird Set",
+              "name": "墓守鳥セット",
               "helm": "Gravebird Helm",
               "chest": "Gravebird's Blackquill Armor",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "High Priest Set",
-              "helm": "High Page Hood",
-              "chest": "High Page Clothes",
-              "gauntlets": "High Priest Gloves",
-              "legs": "High Priest Undergarments"
+              "name": "大司祭シリーズ",
+              "helm": "大司祭、ユミル卿の帽子",
+              "chest": "大司祭、ユミル卿の長衣",
+              "gauntlets": "大司祭、ユミル卿の長手袋",
+              "legs": "大司祭、ユミル卿の下穿き"
             },
             {
-              "name": "Horned Warrior Set",
+              "name": "角の戦士セット",
               "helm": "Great Horned Headband",
               "chest": "Horned Warrior Armor",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Hornsent Set",
+              "name": "角人セット",
               "helm": null,
               "chest": null,
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Igon's Set",
+              "name": "エーゴンセット",
               "helm": "Igon's Helm",
               "chest": "Igon's Armor",
               "gauntlets": null,
               "legs": "Igon's Loincloth"
             },
             {
-              "name": "Iron Rivet Set",
-              "helm": "Blackguard's Iron Mask",
-              "chest": "Iron Rivet Armor",
-              "gauntlets": "Iron Gauntlets",
-              "legs": null
+              "name": "鉄鋲シリーズ",
+              "helm": "ファングヘルム",
+              "chest": "鉄鋲の胴衣",
+              "gauntlets": "鉄鋲の手甲",
+              "legs": "鉄鋲の足甲"
             },
             {
-              "name": "Highland Warrior Set",
+              "name": "高地の戦士セット",
               "helm": null,
               "chest": "Highland Attire",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Messmer Soldier Set",
+              "name": "メスメル兵セット",
               "helm": "Messmer Soldier Helm",
               "chest": "Messmer Soldier Armor",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Messmer's Set",
+              "name": "メスメルセット",
               "helm": "Messmer's Helm",
               "chest": "Messmer's Armor",
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Night Set",
+              "name": "夜の剣士セット",
               "helm": "Banished Knight Helm",
               "chest": "Armor of Night",
               "gauntlets": "Banished Knight Gauntlets",
               "legs": "Banished Knight Greaves"
             },
             {
-              "name": "Oathseeker Knight Set",
+              "name": "誓約騎士セット",
               "helm": "Oathseeker Knight Helm",
               "chest": "Oathseeker Knight Armor",
               "gauntlets": null,
               "legs": "Oathseeker Knight Greaves"
             },
             {
-              "name": "Rakshasa Set",
+              "name": "羅刹セット",
               "helm": "Rakshasa Helm",
               "chest": "Rakshasa Armor",
               "gauntlets": "Rakshasa Gauntlets",
               "legs": "Rakshasa Greaves"
             },
             {
-              "name": "Rellana's Set",
+              "name": "レラーナセット",
               "helm": "Rellana's Helm",
               "chest": null,
               "gauntlets": "Rellana's Gloves",
               "legs": null
             },
             {
-              "name": "Shadow Militiaman Set",
+              "name": "影卑兵セット",
               "helm": "Shadow Militiaman Helm",
               "chest": null,
               "gauntlets": null,
               "legs": null
             },
             {
-              "name": "Solitude Set",
+              "name": "孤牢セット",
               "helm": "Helm of Solitude",
               "chest": "Armor of Solitude",
               "gauntlets": "Gauntlets of Solitude",
               "legs": "Greaves of Solitude"
             },
             {
-              "name": "Thiollier's Set",
+              "name": "ティエリエセット",
               "helm": "Thiollier's Mask",
               "chest": null,
               "gauntlets": "Thiollier's Gloves",
               "legs": "Thiollier's Trousers"
             },
             {
-              "name": "Verdigris Set",
-              "helm": "Verdigris Helm",
-              "chest": "Verdigris Armor",
-              "gauntlets": null,
-              "legs": null
+              "name": "緑青装備",
+              "helm": "緑青の兜",
+              "chest": "緑青の鎧",
+              "gauntlets": "緑青の手甲",
+              "legs": "緑青の足甲"
             },
             {
-              "name": "Young Lion's Set",
+              "name": "若獅子セット",
               "helm": "Young Lion's Helm",
               "chest": null,
               "gauntlets": null,
