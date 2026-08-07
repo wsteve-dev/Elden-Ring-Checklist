@@ -1255,7 +1255,7 @@
             },
             {
               "name": "革の鎧セット",
-              "helm": "Brave's Leather Helm",
+              "helm": "革の兜",
               "chest": "革の鎧",
               "gauntlets": "革の手袋",
               "legs": "革のズボン"
@@ -1430,17 +1430,17 @@
             },
             {
               "name": "調香師セット",
-              "helm": "Depraved Perfumer Headscarf",
-              "chest": "Perfumer Robe",
-              "gauntlets": "Depraved Perfumer Gloves",
-              "legs": "Depraved Perfumer Trousers"
+              "helm": "調香師のフード",
+              "chest": "調香師のロープ",
+              "gauntlets": "調香師の手袋",
+              "legs": "調香師の腰布"
             },
             {
               "name": "調香師の旅装セット",
-              "helm": "Depraved Perfumer Headscarf",
-              "chest": "調香師のローブ",
-              "gauntlets": "調香師の手袋",
-              "legs": "調香師の腰布"
+              "helm": null,
+              "chest": "調香師の旅装",
+              "gauntlets": null,
+              "legs": null
             },
             {
               "name": "魔術教授セット",
@@ -1493,8 +1493,8 @@
             },
             {
               "name": "猛禽セット",
-              "helm": null,
-              "chest": "Raptor's Black Feathers",
+              "helm": "死骨の仮面",
+              "chest": "猛禽の黒羽",
               "gauntlets": null,
               "legs": null
             },
@@ -1556,17 +1556,17 @@
             },
             {
               "name": "領主セット",
-              "helm": "Ruler's Mask",
-              "chest": "Ruler's Robe",
+              "helm": "領主の仮面",
+              "chest": "領主のローブ",
               "gauntlets": null,
               "legs": null
             },
             {
               "name": "賢者セット",
-              "helm": "Sage Hood",
-              "chest": "Sage Robe",
+              "helm": "賢者のフード",
+              "chest": "賢者のローブ",
               "gauntlets": null,
-              "legs": "Sage Trousers"
+              "legs": "賢者のズボン"
             },
             {
               "name": "血の貴族セット",
@@ -1591,10 +1591,10 @@
             },
             {
               "name": "雪魔女セット",
-              "helm": "Snow Witch Hat",
-              "chest": "Snow Witch Robe",
+              "helm": "雪魔女の尖り帽",
+              "chest": "雪魔女のローブ",
               "gauntlets": null,
-              "legs": "Snow Witch Skirt"
+              "legs": "雪魔女のスカート"
             },
             {
               "name": "魔術剣士セット",
